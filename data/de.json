@@ -1,0 +1,240 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über mich", 
+    "experience": "Erfahrung",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+
+  "skipToMain": "Zum Hauptinhalt springen",
+  "skipToNav": "Zur Navigation springen",
+  "hero": {
+    "name": "Maria Kiani",
+    "title": "KI-Ingenieurin | Data Scientist | 14+ Jahre Erfahrung",
+    "subtitle": "Geschäftsimpact durch Daten & Machine Learning",
+    "summary": "Mit einem Masterabschluss in Software Engineering und über 14 Jahren Erfahrung als Datenanalystin habe ich Unternehmen dabei geholfen, KPIs zu optimieren, bessere Entscheidungen zu treffen und die Effizienz durch Datenanalyse zu steigern. 2023 nach Deutschland gezogen, um meine Karriere voranzutreiben, zweiten Masterabschluss in Data Science abgeschlossen. KI-Kurs finalisiert, Entscheidung für Übergang zu KI-Engineering getroffen, um technische Expertise mit Geschäftserfahrung zu kombinieren. Arbeit an KI-Projekt in der Industrie.",
+    "location": "Berlin, Deutschland"
+  },
+  "about": {
+    "title": "Über mich",
+    "content": "Ich wandle mich zur KI-Ingenieurin und kombiniere 14+ Jahre Datenanalyse-Erfahrung mit fortgeschrittener Machine Learning-Expertise. Mit einem Masterabschluss in Software Engineering und einem zweiten Master in Data Science (abgeschlossen in Deutschland 2024) spezialisiere ich mich darauf, Geschäftsimpact durch datengetriebene Lösungen zu schaffen.\n\nIm Laufe meiner Karriere habe ich Unternehmen dabei geholfen, KPIs zu optimieren, bessere Entscheidungen zu treffen und die Effizienz zu steigern. Ich habe erfolgreich über 2.500 Junior-Analysten geschult und an KI-Projekten in industriellen Umgebungen gearbeitet. Nach meinem Umzug nach Deutschland 2023 zur Karriereförderung habe ich einen KI-Spezialisierungskurs abgeschlossen und fokussiere mich nun darauf, technische KI-Expertise mit Geschäftsverständnis zu verbinden.\n\nAktuell lese ich: 'Machine Learning Engineering in Action' von Ben Wilson (Manning Publications) - um mit MLOps Best Practices und produktionsreifen KI-Systemen auf dem neuesten Stand zu bleiben.",
+    "currentReading": {
+      "book": "Machine Learning Engineering in Action",
+      "author": "Ben Wilson",
+      "publisher": "Manning Publications",
+      "year": "2023"
+    }
+  },
+  "skills": {
+    "title": "Technische Fähigkeiten",
+    "categories": {
+      "programming": "Programmiersprachen",
+      "etl": "ETL-Werkzeuge", 
+      "visualization": "Datenvisualisierung",
+      "analytics": "Statistische Analysen",
+      "ai": "KI-Technologien",
+      "cloud": "Cloud-Plattformen",
+      "tools": "Entwicklungstools",
+      "ml": "Machine Learning"
+    },
+    "items": {
+      "programming": ["Python", "SQL", "C#"],
+      "etl": ["Apache Airflow", "dbt", "SSIS", "Power Query"],
+      "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
+      "analytics": ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
+      "ai": ["OpenAI", "Retrieval-Augmented Generation", "Multi-Agent-Systeme"],
+      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
+      "tools": ["Git", "GitHub", "Excel"],
+      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "jobs": [
+      {
+        "title": "KI-Ingenieurin",
+        "company": "Freiberuflich",
+        "location": "Deutschland (Remote)",
+        "period": "Okt 2024 – Heute",
+        "type": "Freiberuflich",
+        "description": "Entwickelte eine Webanwendung zur Extraktion von HR-bezogenen KPIs aus PDFs und Bildern in 4 vom Benutzer ausgewählten Kategorien und Speicherung in Azure SQL für agile Einblicke in globale HR-KPI-Standards unter Verwendung von Azure AI Services, Python, HTML, CSS, API-Programmierung und OpenAI. Entwickelte ein Customer-Churn-Prediction-Modell für B2C-Unternehmen mit Python. Entwickelte Chatbot mit RAG unter Verwendung von AWS AI Service, Python, Streamlit.",
+        "link": null
+      },
+      {
+        "title": "Berufliche Auszeit",
+        "company": "Berufliche Weiterbildung",
+        "location": "Berlin, Deutschland",
+        "period": "März 2024 – Sept 2024",
+        "type": "Berufliche Auszeit",
+        "description": "Abschluss des XRP- und Bitcoin-Vorhersageprojekts mit Deep-Learning-Modellen für Zeitreihen basierend auf Marktanalyse und Sentiment-Analyse (Auftrag einer britischen Firma). Abschluss eines projektbasierten Kurses zu KI-Entwicklerthemen mit praktischen Erfahrungen beim Deployment von KI-Lösungen. Vertiefung der Expertise in Azure AI, AWS, Deep Learning durch Selbststudium. Erfolgreicher Abschluss der Masterarbeit zum Thema Betrugserkennung. Kundenbetreuung für Kunden des vorherigen Unternehmens. Verbesserung der deutschen Sprachkenntnisse.",
+        "link": null
+      },
+      {
+        "title": "Data-Analysis-Consultant",
+        "company": "Darsoon",
+        "location": "Ontario, Kanada (Remote)",
+        "period": "01/2023 – 03/2024", 
+        "type": "Teilzeit",
+        "description": "Analysierte Goldpreis-Nachrichten mit der Guardian-API und Python, erkannte Ausreißer in Zeitreihen und erforschte deren Ursachen. Transformierte Google-Analytics-Daten mit dbt, visualisierte BigQuery-Daten in Tableau und zeigte, dass Stammkunden 60 Prozent des Umsatzes ausmachen. Betreute Junior-Analysten in SQL, Python, Power BI und Excel. Eignete sich Prozesse rasch an und beschleunigte Analytikprojekte.",
+        "link": "https://darsoon.com/en"
+      },
+      {
+        "title": "Senior Data Analyst",
+        "company": "Favagostar",
+        "location": "Teheran, Iran",
+        "period": "03/2019 – 01/2023",
+        "type": "Hybrid-Vollzeit",
+        "description": "Steigerte mithilfe von Datenbereinigung und A/B-Tests die Wiederbuchungsrate eines Home-Service-Providers um 48 Prozent. Analysierte Projektprozesse und senkte deren Kosten um 32 Prozent, errichtete ein Sternschema-Data-Warehouse und erstellte Power-BI-Dashboards. Definierte Kennzahlen und Dashboards für mehr als zehn Unternehmen aus Branchen wie Industrie-Klebstoffe, Ölhandel, Krypto-Portfolios, E-Commerce, Hotellerie, HR und Digital-Marketing. Verantwortete Ad-hoc-Reports, schulte rund 30 Firmenmitarbeiter, erhielt drei Jahre in Folge Leistungsprämien und gewann Großkunden durch innovative Ideen.",
+        "link": "https://persiafava.com/"
+      },
+      {
+        "title": "Dozentin",
+        "company": "Azad University", 
+        "location": "Teheran, Iran",
+        "period": "01/2014 – 01/2019",
+        "type": "Vollzeit",
+        "description": "Vermittelte SQL Server, Excel und Python an Universitätsstudenten.",
+        "link": "https://qods.iau.ir/fa"
+      },
+      {
+        "title": "Data Analystin",
+        "company": "Mellat Bank",
+        "location": "Teheran, Iran",
+        "period": "12/2011 – 03/2014", 
+        "type": "Vollzeit",
+        "description": "Optimierte IT-Prozesse der größten iranischen Bank, erstellte HR-, Produkt- und Service-Dashboards mit Power Query und Excel. Definierte KPIs in Abstimmung mit Stakeholdern und erhielt eine Manager-Auszeichnung für herausragende Projektleistungen.",
+        "link": "https://bankmellat.ir/default.aspx"
+      }
+    ]
+  },
+  "education": {
+    "title": "Ausbildung",
+    "degrees": [
+      {
+        "degree": "Master of Science in Data Science",
+        "school": "University of Europe for Applied Sciences",
+        "location": "Berlin, Deutschland", 
+        "year": "August 2024",
+        "focus": "Fortgeschrittenes Machine Learning, KI-Engineering, MLOps"
+      },
+      {
+        "degree": "Master of Science in Software Engineering",
+        "school": "Azad University",
+        "location": "Teheran, Iran",
+        "year": "2014",
+        "focus": "Software-Architektur, Datenbanksysteme, Projektmanagement"
+      },
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "Bahounar University",
+        "location": "Kerman, Iran",
+        "year": "Mai 2010"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Zertifikate",
+    "items": [
+      {
+        "name": "Generative AI for Developers",
+        "org": "Coyotiv Academy",
+        "year": "2024"
+      },
+      {
+        "name": "Statistical Thinking in Python",
+        "org": "DataCamp",
+        "year": "2023"
+      },
+      {
+        "name": "SQL Server Design", 
+        "org": "Faratar az Danesh Academy",
+        "year": "2022"
+      },
+      {
+        "name": "Designing BI Solutions with Microsoft SQL Server",
+        "org": "Nikamooz",
+        "year": "2015"
+      },
+      {
+        "name": "SQL Server Query",
+        "org": "Faratar az Danesh Academy",
+        "year": "2012"
+      },
+      {
+        "name": "Scrum Master Certificate of Proficiency",
+        "org": "Barnamenevis Academy",
+        "year": "2012"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Ausgewählte Projekte",
+    "items": [
+      {
+        "name": "Energieverbrauchs-Prognose",
+        "description": "Python-basiertes Machine-Learning-Modell zur Vorhersage von Energieverbrauchsmustern mittels Zeitreihenanalyse und Regressionstechniken.",
+        "link": "https://github.com/Mari-kn/Energy_Consumption_Prediction_Python",
+        "tech": ["Python", "Machine Learning", "Zeitreihen"]
+      },
+      {
+        "name": "E-Commerce-Empfehlungssystem",
+        "description": "Intelligentes Produktempfehlungssystem, das ähnliche Produkte identifiziert und die Kundenerfahrung durch kollaborative Filterung verbessert.",
+        "link": "https://github.com/Mari-kn/Recommender_System", 
+        "tech": ["Python", "Kollaborative Filterung", "Data Science"]
+      },
+      {
+        "name": "Betrugserkennung in Kryptowährungen",
+        "description": "Fortschrittliches Betrugserkennungssystem für Kryptowährungstransaktionen mit Machine-Learning-Algorithmen und Anomalieerkennung.",
+        "link": "https://github.com/Mari-kn/Fraud_Detection_Crypto_Python",
+        "tech": ["Python", "Betrugserkennung", "Blockchain"]
+      },
+      {
+        "name": "Aktienprognose mit Sentiment-Analyse",
+        "description": "Aktienkursprognosemodell, das Sentiment-Analyse von Nachrichtendaten mit technischen Indikatoren unter Verwendung von Hugging Face Transformers kombiniert.",
+        "link": "https://github.com/Mari-kn/Stock_Prediction_Sentiment_Huggingface",
+        "tech": ["Python", "NLP", "Finanzanalyse"]
+      },
+      {
+        "name": "Kryptowährungs-Deep-Learning-Prognose",
+        "description": "Deep-Learning-Modell für XRP- und Bitcoin-Zeitreihenprognosen kombiniert mit umfassender Marktanalyse.",
+        "link": "https://github.com/Mari-kn/CryptoCurrency_Prediction_DeepLearning",
+        "tech": ["Deep Learning", "TensorFlow", "Kryptowährung"]
+      },
+      {
+        "name": "Kundenabwanderungs-Prognose",
+        "description": "Machine-Learning-Lösung zur Vorhersage von Kundenabwanderung in IT-Dienstleistungen unter Verwendung von Techniken für unausgewogene Daten.",
+        "link": "https://github.com/Mari-kn/Customer_Churn_Prediction_Imbalenced_Data",
+        "tech": ["Python", "Unausgewogene Daten", "Klassifikation"]
+      },
+      {
+        "name": "KI-gestützter Kundenservice",
+        "description": "Automatisiertes Kundenservice-System basierend auf OpenAI und Retrieval-Augmented Generation (RAG) für intelligente Anfragebearbeitung.",
+        "link": "https://github.com/Mari-kn/call-center-GenAI",
+        "tech": ["OpenAI", "RAG", "Kundenservice"]
+      },
+      {
+        "name": "Gesundheits-Chatbot mit OpenAI",
+        "description": "Intelligenter Gesundheitsberatungs-Chatbot mit OpenAI und Pinecone-Vektordatenbank für präzise medizinische Informationsabfrage.",
+        "link": "https://github.com/Mari-kn/Chatbot_OpenAI/",
+        "tech": ["OpenAI", "Pinecone", "Gesundheitswesen"]
+      },
+      {
+        "name": "KI-Kinder-Geschichten-Generator",
+        "description": "Kreative KI-Anwendung zur Generierung personalisierter Kindergeschichten mit Text-zu-Bild- und Sprachausgabefunktionen.",
+        "link": "https://github.com/Mari-kn/Kids-Story-OpenAI",
+        "tech": ["OpenAI", "Text-zu-Sprache", "Kreative KI"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Lassen Sie uns verbinden und Möglichkeiten in Data Science und Analytics besprechen.",
+    "phone": "+49 176 24014105",
+    "email": "eng.mkianiani@yahoo.com", 
+    "altEmail": "mariakiani9@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maria-kiani/",
+    "github": "https://github.com/Mari-kn",
+    "location": "Berlin, Deutschland"
+  }
+}

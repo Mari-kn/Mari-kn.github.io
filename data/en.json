@@ -1,0 +1,275 @@
+{
+  "_comments": {
+    "_description": "🇬🇧 English language content for Maria Kiani's portfolio",
+    "_instructions": {
+      "editing": "📝 You can edit any text values below. The website will automatically adapt to new content.",
+      "arrays": "📋 Skills, projects, jobs etc. are arrays - add/remove items as needed",
+      "structure": "🔧 Don't change the key names (left side), only change the values (right side)",
+      "testing": "✅ Always test your JSON syntax at jsonlint.com before saving",
+      "dynamic": "🚀 The website automatically generates HTML from this data - just add more items to arrays!"
+    },
+    "sections": {
+      "nav": "Navigation menu labels",
+      "hero": "Main landing section with name and title",
+      "about": "About me paragraph",
+      "skills": "Technical skills organized by categories",
+      "experience": "Job history with full details",
+      "education": "University degrees",
+      "certifications": "Professional certifications",
+      "projects": "GitHub projects with descriptions",
+      "contact": "Contact information and social links"
+    }
+  },
+
+  "nav": {
+    "home": "Home",
+    "about": "About", 
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "skipToMain": "Skip to main content",
+  "skipToNav": "Skip to navigation",
+
+  "hero": {
+    "name": "Maria Kiani",
+    "title": "AI Engineer | Data Scientist | 14+ Years Experience",
+    "subtitle": "Business Impact through Data & Machine Learning",
+    "summary": "With Master's degree in Software Engineering and over 14 years of experience as Data Analyst, I have helped companies optimize KPIs, make better decisions, and increase efficiency through data analysis. Moved to Germany in 2023 to advance my career, completed a second Master's degree focused on Data Science. Finalized an AI course, decided to transition into AI Engineering and combine my technical expertise with my business experience. Worked on AI project in industry.",
+    "location": "Berlin, Germany"
+  },
+
+  "about": {
+    "title": "About Me",
+    "content": "I am transitioning into AI Engineering, combining 14+ years of data analysis experience with advanced machine learning expertise. With a Master's degree in Software Engineering and a second Master's in Data Science (completed in Germany 2024), I specialize in creating business impact through data-driven solutions.\n\nThroughout my career, I have helped companies optimize KPIs, make better decisions, and increase efficiency through data analysis. I successfully trained over 2,500 junior analysts and have worked on AI projects in industry settings. After moving to Germany in 2023 to advance my career, I completed an AI specialization course and am now focused on combining technical AI expertise with business acumen.\n\nCurrently reading: 'Machine Learning Engineering in Action' by Ben Wilson (Manning Publications) - staying current with MLOps best practices and production-ready AI systems.",
+    "currentReading": {
+      "book": "Machine Learning Engineering in Action",
+      "author": "Ben Wilson",
+      "publisher": "Manning Publications",
+      "year": "2023"
+    }
+  },
+
+  "skills": {
+    "title": "Technical Skills",
+    "_skill_instructions": "💡 Add new categories by adding to both 'categories' and 'items'. The website will automatically create new skill sections.",
+    "categories": {
+      "programming": "Programming Languages",
+      "etl": "ETL Tools",
+      "visualization": "Data Visualization", 
+      "analytics": "Statistical Analysis",
+      "ai": "AI Technologies",
+      "cloud": "Cloud Platforms",
+      "tools": "Development Tools",
+      "ml": "Machine Learning"
+    },
+    "items": {
+      "programming": ["Python", "SQL", "C#"],
+      "etl": ["Apache Airflow", "dbt", "SSIS", "Power Query"],
+      "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
+      "analytics": ["Regression Analysis", "Hypothesis Testing", "Time Series Analysis"],
+      "ai": ["OpenAI", "Retrieval-Augmented Generation", "Multi-Agent Systems"],
+      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
+      "tools": ["Git", "GitHub", "Excel"],
+      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
+    }
+  },
+
+  "experience": {
+    "title": "Professional Experience",
+    "_job_instructions": "💼 Add new jobs to the 'jobs' array. Each job needs: title, company, location, period, type, description, link",
+    "jobs": [
+      {
+        "title": "AI Engineer",
+        "company": "Freelance",
+        "location": "Germany (Remote)",
+        "period": "Oct 2024 – Present",
+        "type": "Freelance",
+        "description": "Developed a web application for extracting HR-related KPIs from PDFs and Images in 4 categories selected by user and store in Azure SQL to have agile insights on HR KPIs global standards using Azure AI services, Python, HTML, CSS, API programming and OpenAI. Developed a Customer Churn Prediction model for B2C company using Python. Developed chatbot with RAG using AWS AI Service, Python, Streamlit.",
+        "link": null
+      },
+      {
+        "title": "Career Break",
+        "company": "Professional Development",
+        "location": "Berlin, Germany",
+        "period": "Mar 2024 – Sep 2024",
+        "type": "Career Break",
+        "description": "Finalized XRP and Bitcoin prediction project using time series deep learning models based on market analysis and sentiment analysis (Ordered by UK company). Completed a project-based course focused on AI developer topics, gaining hands-on experience to deploy AI solutions. Strengthened expertise in Azure AI, AWS, Deep learning through self-learning. Successfully finalized master's thesis in Fraud detection subject. Provided customer support for clients at previous company. Enhanced German language skills.",
+        "link": null
+      },
+      {
+        "title": "Data Analysis Consultant",
+        "company": "Darsoon",
+        "location": "Ontario, Canada (Remote)",
+        "period": "01/2023 – 03/2024",
+        "type": "Part-time",
+        "description": "Analyzed gold price news using Guardian API and Python, identified outliers in time series and researched their causes. Transformed Google Analytics data with dbt, visualized BigQuery data in Tableau, demonstrating that loyal customers account for 60% of revenue. Mentored junior analysts in SQL, Python, Power BI, and Excel. Quickly adapted to new processes and accelerated analytics projects.",
+        "link": "https://darsoon.com/en"
+      },
+      {
+        "title": "Senior Data Analyst",
+        "company": "Favagostar",
+        "location": "Tehran, Iran",
+        "period": "03/2019 – 01/2023",
+        "type": "Full-time Hybrid",
+        "description": "Increased rebooking rate of a home service provider by 48% through data cleaning and A/B testing. Analyzed project processes and reduced costs by 32%, built star schema data warehouse and created Power BI dashboards. Defined metrics and dashboards for over 10 companies across industries including industrial adhesives, oil trading, crypto portfolios, e-commerce, hospitality, HR, and digital marketing. Responsible for ad-hoc reports, trained approximately 30 company employees, received performance bonuses for three consecutive years, and won major clients through innovative ideas.",
+        "link": "https://persiafava.com/"
+      },
+      {
+        "title": "Lecturer",
+        "company": "Azad University",
+        "location": "Tehran, Iran",
+        "period": "01/2014 – 01/2019",
+        "type": "Full-time",
+        "description": "Taught SQL Server, Excel, and Python programming to university students.",
+        "link": "https://qods.iau.ir/fa"
+      },
+      {
+        "title": "Data Analyst",
+        "company": "Mellat Bank",
+        "location": "Tehran, Iran", 
+        "period": "12/2011 – 03/2014",
+        "type": "Full-time",
+        "description": "Optimized IT processes for Iran's largest bank, created HR, product, and service dashboards using Power Query and Excel. Defined KPIs in coordination with stakeholders and received manager recognition for outstanding project performance.",
+        "link": "https://bankmellat.ir/default.aspx"
+      }
+    ]
+  },
+
+  "education": {
+    "title": "Education",
+    "_education_instructions": "🎓 Add new degrees to the 'degrees' array. Each degree needs: degree, school, location, year",
+    "degrees": [
+      {
+        "degree": "Master of Science in Data Science", 
+        "school": "University of Europe for Applied Sciences",
+        "location": "Berlin, Germany",
+        "year": "August 2024",
+        "focus": "Advanced Machine Learning, AI Engineering, MLOps"
+      },
+      {
+        "degree": "Master of Science in Software Engineering",
+        "school": "Azad University",
+        "location": "Tehran, Iran",
+        "year": "2014",
+        "focus": "Software Architecture, Database Systems, Project Management"
+      },
+      {
+        "degree": "Bachelor of Science in Computer Science",
+        "school": "Bahounar University", 
+        "location": "Kerman, Iran",
+        "year": "May 2010"
+      }
+    ]
+  },
+
+  "certifications": {
+    "title": "Certifications",
+    "_cert_instructions": "📜 Add new certifications to the 'items' array. Each cert needs: name, org, year",
+    "items": [
+      {
+        "name": "Generative AI for Developers",
+        "org": "Coyotiv Academy",
+        "year": "2024"
+      },
+      {
+        "name": "Statistical Thinking in Python",
+        "org": "DataCamp", 
+        "year": "2023"
+      },
+      {
+        "name": "SQL Server Design",
+        "org": "Faratar az Danesh Academy",
+        "year": "2022"
+      },
+      {
+        "name": "Designing BI Solutions with Microsoft SQL Server",
+        "org": "Nikamooz",
+        "year": "2015"
+      },
+      {
+        "name": "SQL Server Query",
+        "org": "Faratar az Danesh Academy", 
+        "year": "2012"
+      },
+      {
+        "name": "Scrum Master Certificate of Proficiency",
+        "org": "Barnamenevis Academy",
+        "year": "2012"
+      }
+    ]
+  },
+
+  "projects": {
+    "title": "Featured Projects",
+    "_project_instructions": "🚀 Add new projects to the 'items' array. Each project needs: name, description, link, tech (array of technologies)",
+    "items": [
+      {
+        "name": "Energy Consumption Prediction",
+        "description": "Python-based machine learning model for predicting energy consumption patterns using time series analysis and regression techniques.",
+        "link": "https://github.com/Mari-kn/Energy_Consumption_Prediction_Python",
+        "tech": ["Python", "Machine Learning", "Time Series"]
+      },
+      {
+        "name": "E-Commerce Recommendation System",
+        "description": "Intelligent product recommendation system that identifies similar products and enhances customer experience through collaborative filtering.",
+        "link": "https://github.com/Mari-kn/Recommender_System",
+        "tech": ["Python", "Collaborative Filtering", "Data Science"]
+      },
+      {
+        "name": "Cryptocurrency Fraud Detection",
+        "description": "Advanced fraud detection system for cryptocurrency transactions using machine learning algorithms and anomaly detection.",
+        "link": "https://github.com/Mari-kn/Fraud_Detection_Crypto_Python",
+        "tech": ["Python", "Fraud Detection", "Blockchain"]
+      },
+      {
+        "name": "Stock Prediction with Sentiment Analysis",
+        "description": "Stock price prediction model combining sentiment analysis of news data with technical indicators using Hugging Face transformers.",
+        "link": "https://github.com/Mari-kn/Stock_Prediction_Sentiment_Huggingface",
+        "tech": ["Python", "NLP", "Financial Analysis"]
+      },
+      {
+        "name": "Cryptocurrency Deep Learning Prediction",
+        "description": "Deep learning model for XRP and Bitcoin time series prediction combined with comprehensive market analysis.",
+        "link": "https://github.com/Mari-kn/CryptoCurrency_Prediction_DeepLearning",
+        "tech": ["Deep Learning", "TensorFlow", "Cryptocurrency"]
+      },
+      {
+        "name": "Customer Churn Prediction",
+        "description": "Machine learning solution for predicting customer churn in IT services using imbalanced data techniques.",
+        "link": "https://github.com/Mari-kn/Customer_Churn_Prediction_Imbalenced_Data",
+        "tech": ["Python", "Imbalanced Data", "Classification"]
+      },
+      {
+        "name": "AI-Powered Customer Service",
+        "description": "Automated customer service system based on OpenAI and Retrieval-Augmented Generation (RAG) for intelligent query handling.",
+        "link": "https://github.com/Mari-kn/call-center-GenAI",
+        "tech": ["OpenAI", "RAG", "Customer Service"]
+      },
+      {
+        "name": "Health Chatbot with OpenAI",
+        "description": "Intelligent health consultation chatbot using OpenAI and Pinecone vector database for accurate medical information retrieval.",
+        "link": "https://github.com/Mari-kn/Chatbot_OpenAI/",
+        "tech": ["OpenAI", "Pinecone", "Healthcare"]
+      },
+      {
+        "name": "AI Children's Story Generator", 
+        "description": "Creative AI application generating personalized children's stories with text-to-image and voice output capabilities.",
+        "link": "https://github.com/Mari-kn/Kids-Story-OpenAI",
+        "tech": ["OpenAI", "Text-to-Speech", "Creative AI"]
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's connect and discuss opportunities in data science and analytics.",
+    "phone": "+49 176 24014105",
+    "email": "eng.mkianiani@yahoo.com",
+    "altEmail": "mariakiani9@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/maria-kiani/",
+    "github": "https://github.com/Mari-kn",
+    "location": "Berlin, Germany"
+  }
+}
