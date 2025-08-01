@@ -302,9 +302,9 @@ window.content = {
         skipToNav: "Zur Navigation springen",
         hero: {
             name: "Maria Kiani",
-            title: `KI-Ingenieurin | Data Scientist | ${experienceYears}+ Jahre Exzellenz`,
-            subtitle: "Business Intelligence durch fortschrittliche KI-Lösungen transformieren",
-            summary: `Versierte KI-Ingenieurin mit Masterabschlüssen in Software Engineering und Data Science, die ${experienceYears}+ Jahre bewährte Expertise im Umwandeln komplexer Daten in strategischen Geschäftswert einbringt. Erfolgreich 2.500+ Analysten betreut und innovative Lösungen branchenübergreifend geliefert. Aktuell Pionierarbeit für KI-gesteuerte Lösungen in Deutschlands florierender Tech-Landschaft, kombiniert tiefgreifende technische Expertise mit außergewöhnlichem Geschäftsverständnis für messbare Ergebnisse.`,
+            title: `KI-Ingenieurin & Data Scientist | Über ${experienceYears}+ Jahre Erfahrung in datengetriebener Business Intelligence`,
+            subtitle: "Business Intelligence durch KI-Innovationen transformieren",
+            summary: `Ich bin eine erfahrene KI-Ingenieurin mit Masterabschlüssen in Software Engineering und Data Science und über ${experienceYears}+ Jahren nachweislicher Erfahrung darin, komplexe Daten in strategischen Geschäftswert zu überführen. Ich habe mehr als 2.500 Analyst:innen gecoacht und branchenübergreifend innovative, skalierbare Lösungen umgesetzt. Derzeit treibe ich die Entwicklung KI-gestützter Anwendungen in Deutschlands wachsender Tech-Landschaft voran und verknüpfe dabei tiefgehende technische Expertise mit ausgeprägtem Geschäftsverständnis, um messbare Ergebnisse zu erzielen.`,
             location: "Potsdam, Deutschland"
         },
         about: {
