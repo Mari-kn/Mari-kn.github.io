@@ -34,7 +34,7 @@
 
   "hero": {
     "name": "Maria Kiani",
-    "title": "AI Engineer | Data Scientist | 14+ Years Experience in Data",
+    "title": "AI Engineer | Data Scientist | 14+ Years Experience in Data Area",
     "subtitle": "Business Impact through AI & Machine Learning",
     "summary": "With Master's degree in Software Engineering and over 14 years of experience in Data area, I have helped companies to make value with using AI and Data. Moved to Germany in 2023 to advance my career, completed a second Master's degree focused on Data Science. Finalized an AI course, decided to transition into AI Engineering and combine my technical expertise with my business experience. Worked on AI project in industry.",
     "location": "Potsdam, Germany"
@@ -86,7 +86,7 @@
       {
         "title": "Professional Development",
         "company": "",
-        "location": "Berlin, Germany",
+        "location": "Potsdam, Germany",
         "period": "Mar 2024 – Sep 2024",
         "type": "Career Break",
         "description": "Finalized XRP and Bitcoin prediction project using time series deep learning models based on market analysis and sentiment analysis (Ordered by UK company). Completed a project-based course focused on AI developer topics, gaining hands-on experience to deploy AI solutions. Strengthened expertise in Azure AI, AWS, Deep learning through self-learning. Successfully finalized master's thesis in Fraud detection subject. Provided customer support for clients at previous company. Enhanced German language skills.",
@@ -138,7 +138,7 @@
       {
         "degree": "Master of Science in Data Science", 
         "school": "University of Europe for Applied Sciences",
-        "location": "Berlin, Germany",
+        "location": "Potsdam, Germany",
         "year": "August 2024",
         "focus": "Advanced Machine Learning, AI Engineering"
       },

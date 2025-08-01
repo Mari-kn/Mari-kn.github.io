@@ -47,7 +47,7 @@ window.content = {
             title: `AI Engineer | Data Scientist | ${experienceYears}+ Years Excellence`,
             subtitle: "Transforming Business Intelligence through Advanced AI Solutions",
             summary: `Accomplished AI Engineer with Master's degrees in Software Engineering and Data Science, bringing ${experienceYears}+ years of proven expertise in transforming complex data into strategic business value. Successfully mentored 2,500+ analysts while delivering innovative solutions across multiple industries. Currently pioneering AI-driven solutions in Germany's thriving tech ecosystem, combining deep technical expertise with exceptional business acumen to drive measurable results.`,
-            location: "Berlin, Germany"
+            location: "Potsdam, Germany"
         },
         about: {
             title: "About Me",
@@ -97,7 +97,7 @@ window.content = {
                 {
                     title: "Career Break",
                     company: "Professional Development",
-                    location: "Berlin, Germany",
+                    location: "Potsdam, Germany",
                     period: "03/2024 – 09/2024",
                     type: "Career Break",
                     description: "Finalized XRP and Bitcoin prediction project using time series deep learning models based on market analysis and sentiment analysis (Ordered by UK company). Completed a project-based course focused on AI developer topics, gaining hands-on experience to deploy AI solutions. Strengthened expertise in Azure AI, AWS, Deep learning through self-learning. Successfully finalized master's thesis in Fraud detection subject. Provided customer support for clients at previous company. Enhanced German language skills.",
@@ -147,7 +147,7 @@ window.content = {
                 {
                     degree: "Master of Science in Data Science", 
                     school: "University of Europe for Applied Sciences",
-                    location: "Berlin, Germany",
+                    location: "Potsdam, Germany",
                     year: "August 2024"
                 },
                 {
@@ -260,7 +260,7 @@ window.content = {
             altEmail: "mariakiani9@gmail.com",
             linkedin: "https://www.linkedin.com/in/maria-kiani/",
             github: "https://github.com/Mari-kn",
-            location: "Berlin, Germany"
+            location: "Potsdam, Germany"
         }
     },
     de: {
@@ -278,7 +278,7 @@ window.content = {
             title: `KI-Ingenieurin | Data Scientist | ${experienceYears}+ Jahre Exzellenz`,
             subtitle: "Business Intelligence durch fortschrittliche KI-Lösungen transformieren",
             summary: `Versierte KI-Ingenieurin mit Masterabschlüssen in Software Engineering und Data Science, die ${experienceYears}+ Jahre bewährte Expertise im Umwandeln komplexer Daten in strategischen Geschäftswert einbringt. Erfolgreich 2.500+ Analysten betreut und innovative Lösungen branchenübergreifend geliefert. Aktuell Pionierarbeit für KI-gesteuerte Lösungen in Deutschlands florierender Tech-Landschaft, kombiniert tiefgreifende technische Expertise mit außergewöhnlichem Geschäftsverständnis für messbare Ergebnisse.`,
-            location: "Berlin, Deutschland"
+            location: "Potsdam, Deutschland"
         },
         about: {
             title: "Über mich",
@@ -328,7 +328,7 @@ window.content = {
                 {
                     title: "Berufliche Auszeit",
                     company: "Berufliche Weiterbildung",
-                    location: "Berlin, Deutschland",
+                    location: "Potsdam, Deutschland",
                     period: "03/2024 – 09/2024",
                     type: "Berufliche Auszeit",
                     description: "Abschluss des XRP- und Bitcoin-Vorhersageprojekts mit Deep-Learning-Modellen für Zeitreihen basierend auf Marktanalyse und Sentiment-Analyse (Auftrag einer britischen Firma). Abschluss eines projektbasierten Kurses zu KI-Entwicklerthemen mit praktischen Erfahrungen beim Deployment von KI-Lösungen. Vertiefung der Expertise in Azure AI, AWS, Deep Learning durch Selbststudium. Erfolgreicher Abschluss der Masterarbeit zum Thema Betrugserkennung. Kundenbetreuung für Kunden des vorherigen Unternehmens. Verbesserung der deutschen Sprachkenntnisse.",
@@ -378,7 +378,7 @@ window.content = {
                 {
                     degree: "Master of Science in Data Science",
                     school: "University of Europe for Applied Sciences",
-                    location: "Berlin, Deutschland", 
+                    location: "Potsdam, Deutschland", 
                     year: "August 2024"
                 },
                 {
@@ -491,7 +491,7 @@ window.content = {
             altEmail: "mariakiani9@gmail.com",
             linkedin: "https://www.linkedin.com/in/maria-kiani/",
             github: "https://github.com/Mari-kn",
-            location: "Berlin, Deutschland"
+            location: "Potsdam, Deutschland"
         }
     }
 };
