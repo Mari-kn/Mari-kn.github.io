@@ -331,13 +331,13 @@ window.content = {
             },
             items: {
                 programming: ["Python", "SQL", "C#"],
+                ai: ["OpenAI", "Retrieval-Augmented Generation", "Langchain"],
+                ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
                 etl: ["Apache Airflow", "dbt", "SSIS", "Power Query"],
                 visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
                 analytics: ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
-                ai: ["OpenAI", "Retrieval-Augmented Generation", "Langchain"],
                 cloud: ["Azure","Google Cloud Platform", "BigQuery", "AWS"],
-                tools: ["Git", "GitHub", "Excel"],
-                ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
+                tools: ["Git", "GitHub", "Excel"]
             }
         },
         experience: {
