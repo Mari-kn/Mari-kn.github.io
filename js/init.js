@@ -321,21 +321,21 @@ window.content = {
             title: "Technische Fähigkeiten",
             categories: {
                 programming: "Programmiersprachen",
-                etl: "ETL-Werkzeuge", 
+                ai: "KI-Technologien",
+                ml: "Machine Learning",
+                etl: "ETL-Werkzeuge",
                 visualization: "Datenvisualisierung",
                 analytics: "Statistische Analysen",
-                ai: "KI-Technologien",
                 cloud: "Cloud-Plattformen",
-                tools: "Entwicklungstools",
-                ml: "Machine Learning"
+                tools: "Entwicklungstools"
             },
             items: {
                 programming: ["Python", "SQL", "C#"],
                 etl: ["Apache Airflow", "dbt", "SSIS", "Power Query"],
                 visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
                 analytics: ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
-                ai: ["OpenAI", "Retrieval-Augmented Generation", "Multi-Agent-Systeme"],
-                cloud: ["Google Cloud Platform", "BigQuery", "AWS"],
+                ai: ["OpenAI", "Retrieval-Augmented Generation", "Langchain"],
+                cloud: ["Azure","Google Cloud Platform", "BigQuery", "AWS"],
                 tools: ["Git", "GitHub", "Excel"],
                 ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
             }
@@ -346,10 +346,10 @@ window.content = {
                 {
                     title: "KI-Ingenieurin",
                     company: "Freiberuflich",
-                    location: "Deutschland (Remote)",
+                    location: "Deutschland (Remote/Hybrid)",
                     period: "Okt 2024 – Heute",
                     type: "Freiberuflich",
-                    description: "Entwickelte eine Webanwendung zur Extraktion von HR-bezogenen KPIs aus PDFs und Bildern in 4 vom Benutzer ausgewählten Kategorien und Speicherung in Azure SQL für agile Einblicke in globale HR-KPI-Standards unter Verwendung von Azure AI Services, Python, HTML, CSS, API-Programmierung und OpenAI. Entwickelte ein Customer-Churn-Prediction-Modell für B2C-Unternehmen mit Python. Entwickelte Chatbot mit RAG unter Verwendung von AWS AI Service, Python, Streamlit.",
+                    description: "- Arbeite an KI-gestützter Digital-Marketing-Lösung.\n- Implementierte eine intelligente Lösung zur Unterstützung der Registrierung neuer Benutzer mit LLMs, Python, OCR.\n- Entwickelte ein automatisiertes System zur Generierung SEO-optimierter Inhalte mit Python, Fine-tuning OpenAI, OLlama, LangChain, HTML und Javascript.\n- Entwickelte eine Webanwendung zur Extraktion von HR-bezogenen KPIs aus PDFs und Bildern in 4 vom Benutzer ausgewählten Kategorien und Speicherung in Azure SQL für agile Einblicke in globale HR-KPI-Standards unter Verwendung von Azure AI Services, Python, HTML, CSS, API-Programmierung und OpenAI.\n- Entwickelte ein Customer-Churn-Prediction-Modell für B2C-Unternehmen mit Python.\n- Entwickelte Chatbot mit RAG unter Verwendung von AWS AI Service, Python, Streamlit.\n- Finalisierte XRP- und Bitcoin-Vorhersageprojekt mit Deep-Learning-Modellen für Zeitreihen basierend auf Marktanalyse und Sentiment-Analyse.",
                     link: null
                 },
                 {
@@ -358,7 +358,7 @@ window.content = {
                     location: "Potsdam, Deutschland",
                     period: "03/2024 – 09/2024",
                     type: "Berufliche Auszeit",
-                    description: "Abschluss des XRP- und Bitcoin-Vorhersageprojekts mit Deep-Learning-Modellen für Zeitreihen basierend auf Marktanalyse und Sentiment-Analyse (Auftrag einer britischen Firma). Abschluss eines projektbasierten Kurses zu KI-Entwicklerthemen mit praktischen Erfahrungen beim Deployment von KI-Lösungen. Vertiefung der Expertise in Azure AI, AWS, Deep Learning durch Selbststudium. Erfolgreicher Abschluss der Masterarbeit zum Thema Betrugserkennung. Kundenbetreuung für Kunden des vorherigen Unternehmens. Verbesserung der deutschen Sprachkenntnisse.",
+                    description: "- Abschluss eines projektbasierten Kurses zu KI-Entwicklerthemen mit praktischen Erfahrungen beim Deployment von KI-Lösungen.\n- Vertiefung der Expertise in Azure AI, AWS, Deep Learning durch Selbststudium.\n- Erfolgreicher Abschluss der Masterarbeit zum Thema Betrugserkennung.\n- Kundenbetreuung für Kunden des vorherigen Unternehmens.\n- Verbesserung der deutschen Sprachkenntnisse.",
                     link: null
                 },
                 {
@@ -367,7 +367,7 @@ window.content = {
                     location: "Ontario, Kanada (Remote)",
                     period: "01/2023 – 03/2024", 
                     type: "Teilzeit",
-                    description: "Analysierte Goldpreis-Nachrichten mit der Guardian-API und Python, erkannte Ausreißer in Zeitreihen und erforschte deren Ursachen. Transformierte Google-Analytics-Daten mit dbt, visualisierte BigQuery-Daten in Tableau und zeigte, dass Stammkunden 60 Prozent des Umsatzes ausmachen. Betreute Junior-Analysten in SQL, Python, Power BI und Excel. Eignete sich Prozesse rasch an und beschleunigte Analytikprojekte.",
+                    description: "\n- Analysierte Goldpreis-Nachrichten mit der Guardian-API und Python, erkannte Ausreißer in Zeitreihen und erforschte deren Ursachen.\n- Transformierte Google-Analytics-Daten mit dbt, visualisierte BigQuery-Daten in Tableau und zeigte, dass Stammkunden 60% des Umsatzes ausmachen.\n- Betreute Junior-Analysten in SQL, Python, Power BI und Excel.\n- Eignete sich Prozesse rasch an und beschleunigte Analytikprojekte.",
                     link: "https://darsoon.com/en"
                 },
                 {
@@ -376,7 +376,7 @@ window.content = {
                     location: "Teheran, Iran",
                     period: "03/2019 – 01/2023",
                     type: "Hybrid-Vollzeit",
-                    description: "Steigerte mithilfe von Datenbereinigung und A/B-Tests die Wiederbuchungsrate eines Home-Service-Providers um 48 Prozent. Analysierte Projektprozesse und senkte deren Kosten um 32 Prozent, errichtete ein Sternschema-Data-Warehouse und erstellte Power-BI-Dashboards. Definierte Kennzahlen und Dashboards für mehr als zehn Unternehmen aus Branchen wie Industrie-Klebstoffe, Ölhandel, Krypto-Portfolios, E-Commerce, Hotellerie, HR und Digital-Marketing. Verantwortete Ad-hoc-Reports, schulte rund 30 Firmenmitarbeiter, erhielt drei Jahre in Folge Leistungsprämien und gewann Großkunden durch innovative Ideen.",
+                    description: "\n- Steigerte die Wiederbuchungsrate eines Home-Service-Providers um 48% durch Datenbereinigung und A/B-Tests.\n- Analysierte Projektprozesse und senkte Kosten um 32%, errichtete ein Sternschema-Data-Warehouse und erstellte Power-BI-Dashboards.\n- Definierte Kennzahlen und Dashboards für über 10 Unternehmen aus Branchen wie Industrie-Klebstoffe, Ölhandel, Krypto-Portfolios, E-Commerce, Hotellerie, HR und Digital-Marketing.\n- Verantwortete Ad-hoc-Reports, schulte rund 30 Firmenmitarbeiter.\n- Erhielt drei Jahre in Folge Leistungsprämien und gewann Großkunden durch innovative Ideen.",
                     link: "https://persiafava.com/"
                 },
                 {
@@ -385,7 +385,7 @@ window.content = {
                     location: "Teheran, Iran",
                     period: "01/2014 – 01/2019",
                     type: "Vollzeit",
-                    description: "Vermittelte SQL Server, Excel und Python an Universitätsstudenten.",
+                    description: "Vermittelte SQL Server, Excel und Python-Programmierung an Universitätsstudenten.",
                     link: "https://qods.iau.ir/fa"
                 },
                 {
@@ -394,7 +394,16 @@ window.content = {
                     location: "Teheran, Iran",
                     period: "12/2011 – 03/2014", 
                     type: "Vollzeit",
-                    description: "Optimierte IT-Prozesse der größten iranischen Bank, erstellte HR-, Produkt- und Service-Dashboards mit Power Query und Excel. Definierte KPIs in Abstimmung mit Stakeholdern und erhielt eine Manager-Auszeichnung für herausragende Projektleistungen.",
+                    description: "- Optimierte IT-Prozesse für Irans größte Bank.\n- Erstellte HR-, Produkt- und Service-Dashboards mit Power Query und Excel.\n- Definierte KPIs in Abstimmung mit Stakeholdern.\n- Erhielt Manager-Auszeichnung für herausragende Projektleistungen.",
+                    link: "https://bankmellat.ir/default.aspx"
+                },
+                {
+                    title: "Full Stack Entwickler",
+                    company: "Asan Software",
+                    location: "Teheran, Iran", 
+                    period: "04/2010 – 11/2011",
+                    type: "Vollzeit",
+                    description: "\n- C#, WPF und LINQ Programmierung für Gehaltsabrechnungssystem.\n- Entwurf und Implementierung der SQL Server Datenbank.",
                     link: "https://bankmellat.ir/default.aspx"
                 }
             ]
@@ -455,6 +464,24 @@ window.content = {
             title: "Ausgewählte Projekte",
             items: [
                 {
+                    name: "KI-gestütztes digitales Marketing",
+                    description: "Implementierung einer KI-gestützten Digital-Marketing-Lösung.",
+                    link: "Kommerzielles Projekt",
+                    tech: ["LLMs","Python","Langchain"]
+                },
+                {
+                    name: "KI-Registrierungsassistent",
+                    description: "Implementierte eine intelligente Lösung zur Unterstützung der Registrierung neuer Benutzer mit LLMs, Python, OCR.",
+                    link: "Kommerzielles Projekt",
+                    tech: ["Python","LLMs", "OCR", "WebScrap"]
+                },
+                {
+                    name: "KI-gestützte SEO-optimierte Lösung",
+                    description: "Entwickelte ein automatisiertes System zur Generierung SEO-optimierter Inhalte mit Python, Fine-tuning OpenAI, OLlama, LangChain, HTML und Javascript.",
+                    link: "Kommerzielles Projekt",
+                    tech: ["Python","LLMs","RAG","Fine-tuning"]
+                },
+                {
                     name: "Energieverbrauchs-Prognose",
                     description: "Python-basiertes Machine-Learning-Modell zur Vorhersage von Energieverbrauchsmustern mittels Zeitreihenanalyse und Regressionstechniken.",
                     link: "https://github.com/Mari-kn/Energy_Consumption_Prediction_Python",
@@ -512,9 +539,9 @@ window.content = {
         },
         contact: {
             title: "Kontakt aufnehmen",
-            subtitle: "Lassen Sie uns verbinden und Möglichkeiten in Data Science und Analytics besprechen.",
+            subtitle: "Lassen Sie uns verbinden und Möglichkeiten in KI und Data Science besprechen.",
             phone: "+49 176 24014105",
-            email: "eng.mkianiani@yahoo.com", 
+            email: "Mariakiani9@gmail.com", 
             altEmail: "mariakiani9@gmail.com",
             linkedin: "https://www.linkedin.com/in/maria-kiani/",
             github: "https://github.com/Mari-kn",
