@@ -51,7 +51,7 @@ window.content = {
         },
         about: {
             title: "About Me",
-            content: `As an accomplished AI Engineer, I leverage ${experienceYears}+ years of data excellence combined with cutting-edge machine learning expertise to deliver transformative business solutions. My dual Master's degrees in Software Engineering and Data Science (Germany, 2024) provide the perfect foundation for bridging technical innovation with strategic business outcomes.\n\nMy track record speaks volumes: successfully optimized KPIs across 10+ industries, mentored 2,500+ professionals, and consistently delivered efficiency improvements exceeding 30-48%. My expertise spans the complete AI lifecycle - from data strategy to production deployment, with particular strength in fraud detection, predictive analytics, and intelligent automation systems.\n\nTechnical Excellence: Proficient in Python, SQL, TensorFlow, Azure AI, AWS, and advanced MLOps practices. My approach combines rigorous statistical analysis with innovative AI methodologies to solve complex business challenges and drive sustainable growth.`,
+            content: `As an experienced AI Engineer and Data Scientist, I bring over ${experienceYears} years of hands-on expertise in transforming data into actionable business insights. My journey began with a strong foundation in software engineering and evolved into a dynamic career at the intersection of data science and artificial intelligence. With a recent Master's degree in Data Science from Germany and a specialization in AI, I have led impactful projects ranging from customer churn prediction to time-series forecasting of digital assets like XRP and Bitcoin. My work integrates modern tools such as Python, LangChain, and cloud platforms including AWS and Azure to create intelligent, scalable solutions.\n\nAs AI engineer, I have built AI-powered applications that assist user registration, generate SEO-optimized content, and extract HR KPIs from unstructured documents using LLMs. These projects reflect my core belief: that AI should simplify complexity and unlock measurable value. Whether it's developing RAG-based chatbots, customer churn prediction models, or deploying NLP pipelines on the cloud, I consistently strive to bridge technical innovation with strategic business impact.\n\nI am driven by a passion for continuous learning and a commitment to excellence. Beyond delivering solutions, I actively mentor junior data professionals and contribute to educational projects, including authoring books on COBIT 5 and Excel for Data Analysts. Currently based in Potsdam, Germany, I continue to explore new frontiers in AI, working on projects that combine predictive modeling, natural language processing, and cloud-native development. I invite you to connect with me if you're looking to harness the power of AI for your business transformation.`,
             expertise: {
                 focus: "AI Engineering & Machine Learning Operations",
                 specialization: "Production AI Systems & Business Intelligence",
@@ -63,23 +63,23 @@ window.content = {
             title: "Technical Skills",
             categories: {
                 programming: "Programming Languages",
+                ai: "AI Technologies",
+                ml: "Machine Learning",
                 etl: "ETL Tools",
                 visualization: "Data Visualization",
                 analytics: "Statistical Analysis",
-                ai: "AI Technologies",
                 cloud: "Cloud Platforms",
-                tools: "Development Tools",
-                ml: "Machine Learning"
+                tools: "Development Tools"
             },
             items: {
                 programming: ["Python", "SQL", "C#"],
+                ai: ["OpenAI", "Retrieval-Augmented Generation", "Langchain"],
+                ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
                 etl: ["Apache Airflow", "dbt", "SSIS", "Power Query"],
                 visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
                 analytics: ["Regression Analysis", "Hypothesis Testing", "Time Series Analysis"],
-                ai: ["OpenAI", "Retrieval-Augmented Generation", "Multi-Agent Systems"],
-                cloud: ["Google Cloud Platform", "BigQuery", "AWS"],
-                tools: ["Git", "GitHub", "Excel"],
-                ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
+                cloud: ["Azure","Google Cloud Platform", "BigQuery", "AWS"],
+                tools: ["Git", "GitHub", "Excel"]
             }
         },
         experience: {
@@ -88,10 +88,10 @@ window.content = {
                 {
                     title: "AI Engineer",
                     company: "Freelance",
-                    location: "Germany (Remote)",
+                    location: "Germany (Remote/Hybrid)",
                     period: "Oct 2024 – Present",
                     type: "Freelance",
-                    description: "Developed a web application for extracting HR-related KPIs from PDFs and Images in 4 categories selected by user and store in Azure SQL to have agile insights on HR KPIs global standards using Azure AI services, Python, HTML, CSS, API programming and OpenAI. Developed a Customer Churn Prediction model for B2C company using Python. Developed chatbot with RAG using AWS AI Service, Python, Streamlit.",
+                    description: "- Working on AI-Driven Digital Marketing Solution.\n- Implemented an intelligent solution to assist registration of new users using LLMs, Python, OCR.\n- Developed an automated system to generate SEO-Optimized content using Python, Fine-tuning OpenAI, OLlama, LangChain, HTML and Javascript. \n- Developed a web application for extracting HR-related KPIs from PDFs and Images in 4 categories selected by user and store in Azure SQL to have agile insights on HR KPIs global standards using Azure AI services, Python, HTML, CSS, API programming and OpenAI.\n- Developed a Customer Churn Prediction model for B2C company using Python.\n- Developed chatbot with RAG using AWS AI Service, Python, Streamlit.\n- Finalized XRP and Bitcoin prediction project using time series deep learning models based on market analysis and sentiment analysis.",
                     link: null
                 },
                 {
@@ -100,7 +100,7 @@ window.content = {
                     location: "Potsdam, Germany",
                     period: "03/2024 – 09/2024",
                     type: "Career Break",
-                    description: "Finalized XRP and Bitcoin prediction project using time series deep learning models based on market analysis and sentiment analysis (Ordered by UK company). Completed a project-based course focused on AI developer topics, gaining hands-on experience to deploy AI solutions. Strengthened expertise in Azure AI, AWS, Deep learning through self-learning. Successfully finalized master's thesis in Fraud detection subject. Provided customer support for clients at previous company. Enhanced German language skills.",
+                    description: " - Completed a project-based course focused on AI developer topics, gaining hands-on experience to deploy AI solutions. \n- Strengthened expertise in Azure AI, AWS, Deep learning through self-learning. \n- Successfully finalized master's thesis in Fraud detection subject. \n- Provided customer support for clients at previous company. \n- Enhanced German language skills.",
                     link: null
                 },
                 {
@@ -109,7 +109,7 @@ window.content = {
                     location: "Ontario, Canada (Remote)",
                     period: "01/2023 – 03/2024",
                     type: "Part-time",
-                    description: "Analyzed gold price news using Guardian API and Python, identified outliers in time series and researched their causes. Transformed Google Analytics data with dbt, visualized BigQuery data in Tableau, demonstrating that loyal customers account for 60% of revenue. Mentored junior analysts in SQL, Python, Power BI, and Excel. Quickly adapted to new processes and accelerated analytics projects.",
+                    description: "\n- Analyzed gold price news using Guardian API and Python, identified outliers in time series and researched their causes. \n- Transformed Google Analytics data with dbt, visualized BigQuery data in Tableau, demonstrating that loyal customers account for 60% of revenue. \n- Mentored junior analysts in SQL, Python, Power BI, and Excel. \n- Quickly adapted to new processes and accelerated analytics projects.",
                     link: "https://darsoon.com/en"
                 },
                 {
@@ -118,7 +118,7 @@ window.content = {
                     location: "Tehran, Iran",
                     period: "03/2019 – 01/2023",
                     type: "Full-time Hybrid",
-                    description: "Increased rebooking rate of a home service provider by 48% through data cleaning and A/B testing. Analyzed project processes and reduced costs by 32%, built star schema data warehouse and created Power BI dashboards. Defined metrics and dashboards for over 10 companies across industries including industrial adhesives, oil trading, crypto portfolios, e-commerce, hospitality, HR, and digital marketing. Responsible for ad-hoc reports, trained approximately 30 company employees, received performance bonuses for three consecutive years, and won major clients through innovative ideas.",
+                    description: "\n- Increased rebooking rate of a home service provider by 48% through data cleaning and A/B testing. \n- Analyzed project processes and reduced costs by 32%, built star schema data warehouse and created Power BI dashboards. \n- Defined metrics and dashboards for over 10 companies across industries including industrial adhesives, oil trading, crypto portfolios, e-commerce, hospitality, HR, and digital marketing. \n- Responsible for ad-hoc reports, trained approximately 30 company employees. \n-Received performance bonuses for three consecutive years, and won major clients through innovative ideas.",
                     link: "https://persiafava.com/"
                 },
                 {
@@ -136,7 +136,16 @@ window.content = {
                     location: "Tehran, Iran", 
                     period: "12/2011 – 03/2014",
                     type: "Full-time",
-                    description: "Optimized IT processes for Iran's largest bank, created HR, product, and service dashboards using Power Query and Excel. Defined KPIs in coordination with stakeholders and received manager recognition for outstanding project performance.",
+                    description: "- Optimized IT processes for Iran's largest bank. \n- Created HR, product, and service dashboards using Power Query and Excel. \n- Defined KPIs in coordination with stakeholders. \n- Received manager recognition for outstanding project performance.",
+                    link: "https://bankmellat.ir/default.aspx"
+                },
+                {
+                    title: "Full stack developer",
+                    company: "Asan Software",
+                    location: "Tehran, Iran", 
+                    period: "04/2010 – 11/2011",
+                    type: "Full-time",
+                    description: "\n - C# , WPF and LINQ Programmer for Payroll system. \n - Designed and Implemented SQL server database.",
                     link: "https://bankmellat.ir/default.aspx"
                 }
             ]
@@ -197,6 +206,24 @@ window.content = {
             title: "Featured Projects",
             items: [
                 {
+                    name: "AI-Driven digital marketing",
+                    description: "Implementing an AI-Driven Digital Marketing Solution.",
+                    link: "It's commercial project",
+                    tech: ["LLMs","Python","Langchain"]
+                },
+                {
+                    name: "AI registration assistant",
+                    description: "Implemented an intelligent solution to assist registration of new users using LLMs, Python, OCR.",
+                    link: "It's commercial project",
+                    tech: ["Python","LLMs", "OCR", "WebScrap"]
+                },
+                {
+                    name: "AI-Driven SEO-optimized solution",
+                    description: "Developed an automated system to generate SEO-Optimized content using Python, Fine-tuning OpenAI, OLlama, LangChain, HTML and Javascript.",
+                    link: "It's commercial project",
+                    tech: ["Python","LLMs","RAG","Fine-tuning"]
+                },
+                {
                     name: "Energy Consumption Prediction",
                     description: "Python-based machine learning model for predicting energy consumption patterns using time series analysis and regression techniques.",
                     link: "https://github.com/Mari-kn/Energy_Consumption_Prediction_Python",
@@ -254,9 +281,9 @@ window.content = {
         },
         contact: {
             title: "Get In Touch",
-            subtitle: "Let's connect and discuss opportunities in data science and analytics.",
+            subtitle: "Let's connect and discuss opportunities in AI and data science.",
             phone: "+49 176 24014105",
-            email: "eng.mkianiani@yahoo.com",
+            email: "Mariakiani9@gmail.com",
             altEmail: "mariakiani9@gmail.com",
             linkedin: "https://www.linkedin.com/in/maria-kiani/",
             github: "https://github.com/Mari-kn",
@@ -282,7 +309,7 @@ window.content = {
         },
         about: {
             title: "Über mich",
-            content: `Als versierte KI-Ingenieurin nutze ich ${experienceYears}+ Jahre Daten-Exzellenz kombiniert mit modernster Machine Learning-Expertise, um transformative Geschäftslösungen zu liefern. Meine dualen Masterabschlüsse in Software Engineering und Data Science (Deutschland, 2024) bilden die perfekte Grundlage für die Verbindung technischer Innovation mit strategischen Geschäftsergebnissen.\n\nMeine Erfolgsbilanz spricht Bände: erfolgreich KPIs in 10+ Branchen optimiert, 2.500+ Fachkräfte betreut und konstant Effizienzsteigerungen von über 30-48% geliefert. Meine Expertise umfasst den kompletten KI-Lebenszyklus - von der Datenstrategie bis zum Produktions-Deployment, mit besonderer Stärke in Betrugserkennung, Predictive Analytics und intelligenten Automatisierungssystemen.\n\nTechnische Exzellenz: Versiert in Python, SQL, TensorFlow, Azure AI, AWS und fortgeschrittenen MLOps-Praktiken. Mein Ansatz kombiniert rigorose statistische Analyse mit innovativen KI-Methodologien zur Lösung komplexer Geschäftsherausforderungen und nachhaltigen Wachstums.`,
+            content: `Als erfahrene KI-Ingenieurin und Data Scientist bringe ich über ${experienceYears} Jahre praktische Expertise in der Transformation von Daten in umsetzbare Geschäftserkenntnisse mit. Meine Reise begann mit einer soliden Grundlage in Software Engineering und entwickelte sich zu einer dynamischen Karriere an der Schnittstelle von Data Science und künstlicher Intelligenz. Mit einem kürzlich erworbenen Master-Abschluss in Data Science aus Deutschland und einer Spezialisierung auf KI habe ich wirkungsvolle Projekte geleitet, die von der Betrugserkennung in Kryptowährungen bis zur Zeitreihenprognose digitaler Assets wie XRP und Bitcoin reichen. Meine Arbeit integriert moderne Tools wie Python, LangChain und Cloud-Plattformen einschließlich AWS, Azure und GCP, um intelligente, skalierbare Lösungen zu schaffen.\n\nMein Ansatz ist tief in der Ausrichtung fortgeschrittener Analytik auf reale Geschäftsziele verwurzelt. Als Freiberuflerin habe ich KI-gestützte Anwendungen entwickelt, die das User-Onboarding automatisieren, SEO-optimierte Inhalte generieren und HR-KPIs aus unstrukturierten Dokumenten mittels LLMs extrahieren. Diese Projekte spiegeln meine Kernüberzeugung wider: KI sollte Komplexität vereinfachen und messbaren Wert freisetzen. Ob bei der Entwicklung RAG-basierter Chatbots, Modellen zur Vorhersage von Kundenabwanderung oder dem Deployment von NLP-Pipelines in der Cloud - ich strebe stets danach, technische Innovation mit strategischem Geschäftsnutzen zu verbinden.\n\nIch werde von einer Leidenschaft für kontinuierliches Lernen und einem Engagement für Exzellenz angetrieben. Über die Bereitstellung von Lösungen hinaus betreue ich aktiv Junior-Datenprofis und trage zu Bildungsprojekten bei, einschließlich der Autorenschaft von Büchern über COBIT 5 und Excel für Datenanalysten. Derzeit in Potsdam, Deutschland, ansässig, erkunde ich weiterhin neue Grenzen in der KI und arbeite an Projekten, die Predictive Modeling, Natural Language Processing und Cloud-native Entwicklung kombinieren. Ich lade Sie ein, sich mit mir zu vernetzen, wenn Sie die Kraft der KI für Ihre Geschäftstransformation nutzen möchten.`,
             expertise: {
                 focus: "KI-Engineering & Machine Learning Operations",
                 specialization: "Produktions-KI-Systeme & Business Intelligence",

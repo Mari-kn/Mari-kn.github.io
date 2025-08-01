@@ -163,7 +163,7 @@ class ContentLoader {
                     
                     <div id="desc-${index}" class="space-y-4">
                         <p class="text-gray-300 leading-relaxed text-base group-hover:text-gray-200 transition-colors duration-300">
-                            ${job.description}
+                            ${job.description.replace(/\n/g, '<br>')}
                         </p>
                         
                         <footer class="flex items-center justify-between pt-4 border-t border-white/10">
