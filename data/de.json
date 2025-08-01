@@ -34,21 +34,15 @@
 
   "hero": {
     "name": "Maria Kiani",
-    "title": "KI-Ingenieurin | Data Scientist | 14+ Jahre Erfahrung",
-    "subtitle": "Geschäftsimpact durch Daten & Machine Learning",
+    "title": "KI-Ingenieurin | Data Scientist | 14+ Jahre Erfahrung im Datenbereich",
+    "subtitle": "Geschäftsimpact durch KI & Machine Learning",
     "summary": "Mit einem Masterabschluss in Software Engineering und über 14 Jahren Erfahrung als Datenanalystin habe ich Unternehmen dabei geholfen, KPIs zu optimieren, bessere Entscheidungen zu treffen und die Effizienz durch Datenanalyse zu steigern. 2023 nach Deutschland gezogen, um meine Karriere voranzutreiben, zweiten Masterabschluss in Data Science abgeschlossen. KI-Kurs finalisiert, Entscheidung für Übergang zu KI-Engineering getroffen, um technische Expertise mit Geschäftserfahrung zu kombinieren. Arbeit an KI-Projekt in der Industrie.",
-    "location": "Berlin, Deutschland"
+    "location": "Potsdam, Deutschland"
   },
 
   "about": {
     "title": "Über mich",
-    "content": "Ich wandle mich zur KI-Ingenieurin und kombiniere 14+ Jahre Datenanalyse-Erfahrung mit fortgeschrittener Machine Learning-Expertise. Mit einem Masterabschluss in Software Engineering und einem zweiten Master in Data Science (abgeschlossen in Deutschland 2024) spezialisiere ich mich darauf, Geschäftsimpact durch datengetriebene Lösungen zu schaffen.\n\nIm Laufe meiner Karriere habe ich Unternehmen dabei geholfen, KPIs zu optimieren, bessere Entscheidungen zu treffen und die Effizienz zu steigern. Ich habe erfolgreich über 2.500 Junior-Analysten geschult und an KI-Projekten in industriellen Umgebungen gearbeitet. Nach meinem Umzug nach Deutschland 2023 zur Karriereförderung habe ich einen KI-Spezialisierungskurs abgeschlossen und fokussiere mich nun darauf, technische KI-Expertise mit Geschäftsverständnis zu verbinden.\n\nAktuell lese ich: 'Machine Learning Engineering in Action' von Ben Wilson (Manning Publications) - um mit MLOps Best Practices und produktionsreifen KI-Systemen auf dem neuesten Stand zu bleiben.",
-    "currentReading": {
-      "book": "Machine Learning Engineering in Action",
-      "author": "Ben Wilson",
-      "publisher": "Manning Publications",
-      "year": "2023"
-    }
+    "content": "Ich bin KI-Ingenieurin und kombiniere 14+ Jahre Datenanalyse-Erfahrung mit fortgeschrittener Machine Learning-Expertise und KI-Engineering. Mit einem Masterabschluss in Software Engineering und einem zweiten Master in Data Science in Deutschland spezialisiere ich mich darauf, Geschäftsimpact durch datengetriebene Lösungen zu schaffen.\n\nIm Laufe meiner Karriere habe ich Unternehmen dabei geholfen, KI als ermächtigende Werkzeuge zu nutzen, um Kosten zu reduzieren, die Effizienz zu steigern und das Geschäft zu beschleunigen. Ich habe erfolgreich über 2.500 Junior-Analysten geschult und an KI-Projekten in industriellen Umgebungen gearbeitet. Nach meinem Umzug nach Deutschland 2023 zur Karriereförderung habe ich einen KI-Spezialisierungskurs abgeschlossen und fokussiere mich nun darauf, technische KI-Expertise mit Geschäftsverständnis zu verbinden."
   },
 
   "skills": {
@@ -56,23 +50,23 @@
     "_skill_instructions": "💡 Fügen Sie neue Kategorien hinzu, indem Sie sowohl zu 'categories' als auch zu 'items' hinzufügen. Die Website erstellt automatisch neue Skill-Bereiche.",
     "categories": {
       "programming": "Programmiersprachen",
-      "etl": "ETL-Werkzeuge", 
-      "visualization": "Datenvisualisierung",
-      "analytics": "Statistische Analysen",
       "ai": "KI-Technologien",
+      "ml": "Machine Learning",
+      "etl": "ETL-Werkzeuge",
+      "visualization": "Datenvisualisierung", 
+      "analytics": "Statistische Analysen",
       "cloud": "Cloud-Plattformen",
-      "tools": "Entwicklungstools",
-      "ml": "Machine Learning"
+      "tools": "Entwicklungstools"
     },
     "items": {
-      "programming": ["Python", "SQL", "C#"],
+      "programming": ["Python", "C#", "SQL"],
+      "ai": ["LLM", "RAG","LangChain"],
+      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
+      "analytics": ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
+      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
       "etl": ["Apache Airflow", "dbt", "SSIS", "Power Query"],
       "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
-      "analytics": ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
-      "ai": ["OpenAI", "Retrieval-Augmented Generation", "Multi-Agent-Systeme"],
-      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
-      "tools": ["Git", "GitHub", "Excel"],
-      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
+      "tools": ["Git", "GitHub", "Excel"]
     }
   },
 
@@ -81,18 +75,18 @@
     "_job_instructions": "💼 Fügen Sie neue Jobs zum 'jobs' Array hinzu. Jeder Job benötigt: title, company, location, period, type, description, link",
     "jobs": [
       {
-        "title": "KI-Ingenieurin",
+        "title": "KI-Ingenieurin und Data Scientist",
         "company": "Freiberuflich",
         "location": "Deutschland (Remote)",
         "period": "Okt 2024 – Heute",
         "type": "Freiberuflich",
-        "description": "Entwickelte eine Webanwendung zur Extraktion von HR-bezogenen KPIs aus PDFs und Bildern in 4 vom Benutzer ausgewählten Kategorien und Speicherung in Azure SQL für agile Einblicke in globale HR-KPI-Standards unter Verwendung von Azure AI Services, Python, HTML, CSS, API-Programmierung und OpenAI. Entwickelte ein Customer-Churn-Prediction-Modell für B2C-Unternehmen mit Python. Entwickelte Chatbot mit RAG unter Verwendung von AWS AI Service, Python, Streamlit.",
+        "description": "Arbeite an KI-gesteuerter Digital-Marketing-Lösung. Implementierte eine intelligente Lösung zur Unterstützung der Registrierung neuer Benutzer mit LLMs, Python, OCR. Entwickelte ein automatisiertes System zur Generierung von SEO-optimierten Inhalten mit Python, Fine-tuning OpenAI, OLlama, LangChain, HTML und Javascript. Entwickelte eine Webanwendung zur Extraktion von HR-bezogenen KPIs aus PDFs und Bildern in 4 vom Benutzer ausgewählten Kategorien und Speicherung in Azure SQL für agile Einblicke in globale HR-KPI-Standards unter Verwendung von Azure AI Services, Python, HTML, CSS, API-Programmierung und OpenAI. Entwickelte ein Customer-Churn-Prediction-Modell für B2C-Unternehmen mit Python. Entwickelte Chatbot mit RAG unter Verwendung von AWS AI Service, Python, Streamlit.",
         "link": null
       },
       {
-        "title": "Berufliche Auszeit",
-        "company": "Berufliche Weiterbildung",
-        "location": "Berlin, Deutschland",
+        "title": "Berufliche Weiterbildung",
+        "company": "",
+        "location": "Potsdam, Deutschland",
         "period": "März 2024 – Sept 2024",
         "type": "Berufliche Auszeit",
         "description": "Abschluss des XRP- und Bitcoin-Vorhersageprojekts mit Deep-Learning-Modellen für Zeitreihen basierend auf Marktanalyse und Sentiment-Analyse (Auftrag einer britischen Firma). Abschluss eines projektbasierten Kurses zu KI-Entwicklerthemen mit praktischen Erfahrungen beim Deployment von KI-Lösungen. Vertiefung der Expertise in Azure AI, AWS, Deep Learning durch Selbststudium. Erfolgreicher Abschluss der Masterarbeit zum Thema Betrugserkennung. Kundenbetreuung für Kunden des vorherigen Unternehmens. Verbesserung der deutschen Sprachkenntnisse.",
@@ -144,9 +138,9 @@
       {
         "degree": "Master of Science in Data Science",
         "school": "University of Europe for Applied Sciences",
-        "location": "Berlin, Deutschland", 
+        "location": "Potsdam, Deutschland", 
         "year": "August 2024",
-        "focus": "Fortgeschrittenes Machine Learning, KI-Engineering, MLOps"
+        "focus": "Fortgeschrittenes Machine Learning, KI-Engineering"
       },
       {
         "degree": "Master of Science in Software Engineering",
@@ -206,6 +200,24 @@
     "_project_instructions": "🚀 Fügen Sie neue Projekte zum 'items' Array hinzu. Jedes Projekt benötigt: name, description, link, tech (Array von Technologien)",
     "items": [
       {
+        "name": "KI-gesteuerte Digital-Marketing-Lösung",
+        "description": "Implementierung einer KI-gesteuerten Digital-Marketing-Lösung.",
+        "link": "Kommerzielles Projekt",
+        "tech": ["LLMs","Python","Langchain"]
+      },
+      {
+        "name": "KI-Registrierungsassistent",
+        "description": "Implementierte eine intelligente Lösung zur Unterstützung der Registrierung neuer Benutzer mit LLMs, Python, OCR.",
+        "link": "Kommerzielles Projekt",
+        "tech": ["Python","LLMs", "OCR", "WebScrap"]
+      },
+      {
+        "name": "KI-gesteuerte SEO-optimierte Lösung",
+        "description": "Entwickelte ein automatisiertes System zur Generierung von SEO-optimierten Inhalten mit Python, Fine-tuning OpenAI, OLlama, LangChain, HTML und Javascript.",
+        "link": "Kommerzielles Projekt",
+        "tech": ["Python","LLMs","RAG","Fine-tuning"]
+      },
+      {
         "name": "Energieverbrauchs-Prognose",
         "description": "Python-basiertes Machine-Learning-Modell zur Vorhersage von Energieverbrauchsmustern mittels Zeitreihenanalyse und Regressionstechniken.",
         "link": "https://github.com/Mari-kn/Energy_Consumption_Prediction_Python",
@@ -264,12 +276,12 @@
 
   "contact": {
     "title": "Kontakt aufnehmen",
-    "subtitle": "Lassen Sie uns verbinden und Möglichkeiten in Data Science und Analytics besprechen.",
+    "subtitle": "Lassen Sie uns verbinden und Möglichkeiten in KI und Data Science besprechen.",
     "phone": "+49 176 24014105",
-    "email": "eng.mkianiani@yahoo.com", 
+    "email": "mariakiani9@gmail.com", 
     "altEmail": "mariakiani9@gmail.com",
     "linkedin": "https://www.linkedin.com/in/maria-kiani/",
     "github": "https://github.com/Mari-kn",
-    "location": "Berlin, Deutschland"
+    "location": "Potsdam, Deutschland"
   }
 }

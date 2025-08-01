@@ -34,21 +34,15 @@
 
   "hero": {
     "name": "Maria Kiani",
-    "title": "AI Engineer | Data Scientist | 14+ Years Experience",
-    "subtitle": "Business Impact through Data & Machine Learning",
-    "summary": "With Master's degree in Software Engineering and over 14 years of experience as Data Analyst, I have helped companies optimize KPIs, make better decisions, and increase efficiency through data analysis. Moved to Germany in 2023 to advance my career, completed a second Master's degree focused on Data Science. Finalized an AI course, decided to transition into AI Engineering and combine my technical expertise with my business experience. Worked on AI project in industry.",
-    "location": "Berlin, Germany"
+    "title": "AI Engineer | Data Scientist | 14+ Years Experience in Data",
+    "subtitle": "Business Impact through AI & Machine Learning",
+    "summary": "With Master's degree in Software Engineering and over 14 years of experience in Data area, I have helped companies to make value with using AI and Data. Moved to Germany in 2023 to advance my career, completed a second Master's degree focused on Data Science. Finalized an AI course, decided to transition into AI Engineering and combine my technical expertise with my business experience. Worked on AI project in industry.",
+    "location": "Potsdam, Germany"
   },
 
   "about": {
     "title": "About Me",
-    "content": "I am transitioning into AI Engineering, combining 14+ years of data analysis experience with advanced machine learning expertise. With a Master's degree in Software Engineering and a second Master's in Data Science (completed in Germany 2024), I specialize in creating business impact through data-driven solutions.\n\nThroughout my career, I have helped companies optimize KPIs, make better decisions, and increase efficiency through data analysis. I successfully trained over 2,500 junior analysts and have worked on AI projects in industry settings. After moving to Germany in 2023 to advance my career, I completed an AI specialization course and am now focused on combining technical AI expertise with business acumen.\n\nCurrently reading: 'Machine Learning Engineering in Action' by Ben Wilson (Manning Publications) - staying current with MLOps best practices and production-ready AI systems.",
-    "currentReading": {
-      "book": "Machine Learning Engineering in Action",
-      "author": "Ben Wilson",
-      "publisher": "Manning Publications",
-      "year": "2023"
-    }
+    "content": "I am AI Engineer, combining 14+ years of data analysis experience with advanced machine learning expertise and AI Engineering. With a Master's degree in Software Engineering and a second Master's in Data Science in Germany, I specialize in creating business impact through data-driven solutions.\n\nThroughout my career, I have helped companies to use AI as a empowering tools to reduce costs, increasing efficiency and accelarating business. I successfully trained over 2,500 junior analysts and have worked on AI projects in industry settings. After moving to Germany in 2023 to advance my career, I completed an AI specialization course and am now focused on combining technical AI expertise with business acumen."
   },
 
   "skills": {
@@ -56,23 +50,23 @@
     "_skill_instructions": "💡 Add new categories by adding to both 'categories' and 'items'. The website will automatically create new skill sections.",
     "categories": {
       "programming": "Programming Languages",
+      "ai": "AI Technologies",
+      "ml": "Machine Learning",
       "etl": "ETL Tools",
       "visualization": "Data Visualization", 
       "analytics": "Statistical Analysis",
-      "ai": "AI Technologies",
       "cloud": "Cloud Platforms",
-      "tools": "Development Tools",
-      "ml": "Machine Learning"
+      "tools": "Development Tools"
     },
     "items": {
-      "programming": ["Python", "SQL", "C#"],
+      "programming": ["Python", "C#", "SQL"],
+      "ai": ["LLM", "RAG","LangChain"],
+      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
+      "analytics": ["Regression Analysis", "Hypothesis Testing", "Time Series Analysis"],
+      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
       "etl": ["Apache Airflow", "dbt", "SSIS", "Power Query"],
       "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
-      "analytics": ["Regression Analysis", "Hypothesis Testing", "Time Series Analysis"],
-      "ai": ["OpenAI", "Retrieval-Augmented Generation", "Multi-Agent Systems"],
-      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
-      "tools": ["Git", "GitHub", "Excel"],
-      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"]
+      "tools": ["Git", "GitHub", "Excel"]
     }
   },
 
@@ -81,17 +75,17 @@
     "_job_instructions": "💼 Add new jobs to the 'jobs' array. Each job needs: title, company, location, period, type, description, link",
     "jobs": [
       {
-        "title": "AI Engineer",
+        "title": "AI Engineer and Data Scientist",
         "company": "Freelance",
         "location": "Germany (Remote)",
         "period": "Oct 2024 – Present",
         "type": "Freelance",
-        "description": "Developed a web application for extracting HR-related KPIs from PDFs and Images in 4 categories selected by user and store in Azure SQL to have agile insights on HR KPIs global standards using Azure AI services, Python, HTML, CSS, API programming and OpenAI. Developed a Customer Churn Prediction model for B2C company using Python. Developed chatbot with RAG using AWS AI Service, Python, Streamlit.",
+        "description": "Working on AI-Driven Digital Marketing Solution. Implemented an intelligent solution to assist registration of new users using LLMs, Python, OCR. Developed an automated system to generate SEO-Optimized content using Python, Fine-tuning OpenAI, OLlama, LangChain, HTML and Javascript. Developed a web application for extracting HR-related KPIs from PDFs and Images in 4 categories selected by user and store in Azure SQL to have agile insights on HR KPIs global standards using Azure AI services, Python, HTML, CSS, API programming and OpenAI. Developed a Customer Churn Prediction model for B2C company using Python. Developed chatbot with RAG using AWS AI Service, Python, Streamlit.",
         "link": null
       },
       {
-        "title": "Career Break",
-        "company": "Professional Development",
+        "title": "Professional Development",
+        "company": "",
         "location": "Berlin, Germany",
         "period": "Mar 2024 – Sep 2024",
         "type": "Career Break",
@@ -146,7 +140,7 @@
         "school": "University of Europe for Applied Sciences",
         "location": "Berlin, Germany",
         "year": "August 2024",
-        "focus": "Advanced Machine Learning, AI Engineering, MLOps"
+        "focus": "Advanced Machine Learning, AI Engineering"
       },
       {
         "degree": "Master of Science in Software Engineering",
@@ -206,6 +200,24 @@
     "_project_instructions": "🚀 Add new projects to the 'items' array. Each project needs: name, description, link, tech (array of technologies)",
     "items": [
       {
+        "name": "AI-Driven digital marketing",
+        "description": "Implementing an AI-Driven Digital Marketing Solution.",
+        "link": "It's commercial project",
+        "tech": ["LLMs","Python","Langchain"]
+      },
+      {
+        "name": "AI registration assistant",
+        "description": "Implemented an intelligent solution to assist registration of new users using LLMs, Python, OCR.",
+        "link": "It's commercial project",
+        "tech": ["Python","LLMs", "OCR", "WebScrap"]
+      },
+      {
+        "name": "AI-Driven SEO-optimized solution",
+        "description": "Developed an automated system to generate SEO-Optimized content using Python, Fine-tuning OpenAI, OLlama, LangChain, HTML and Javascript.",
+        "link": "It's commercial project",
+        "tech": ["Python","LLMs","RAG","Fine-tuning"]
+      },
+      {
         "name": "Energy Consumption Prediction",
         "description": "Python-based machine learning model for predicting energy consumption patterns using time series analysis and regression techniques.",
         "link": "https://github.com/Mari-kn/Energy_Consumption_Prediction_Python",
@@ -264,12 +276,12 @@
 
   "contact": {
     "title": "Get In Touch",
-    "subtitle": "Let's connect and discuss opportunities in data science and analytics.",
+    "subtitle": "Let's connect and discuss opportunities in AI and data science.",
     "phone": "+49 176 24014105",
-    "email": "eng.mkianiani@yahoo.com",
+    "email": "mariakiani9@gmail.com",
     "altEmail": "mariakiani9@gmail.com",
     "linkedin": "https://www.linkedin.com/in/maria-kiani/",
     "github": "https://github.com/Mari-kn",
-    "location": "Berlin, Germany"
+    "location": "Potsdam, Germany"
   }
 }
