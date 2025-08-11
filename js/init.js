@@ -104,7 +104,7 @@ window.content = {
                     link: null
                 },
                 {
-                    title: "Data Analysis Consultant",
+                    title: "Data Science/Analysis Consultant",
                     company: "Darsoon",
                     location: "Ontario, Canada (Remote)",
                     period: "01/2023 – 03/2024",
@@ -122,7 +122,7 @@ window.content = {
                     link: "https://persiafava.com/"
                 },
                 {
-                    title: "Lecturer",
+                    title: "Data Science Lecturer",
                     company: "Azad University",
                     location: "Tehran, Iran",
                     period: "01/2014 – 01/2019",
