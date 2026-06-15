@@ -56,7 +56,7 @@ window.content = {
                 focus: "AI Engineering & Machine Learning Operations",
                 specialization: "Production AI Systems & Business Intelligence",
                 industries: "FinTech, E-commerce, Healthcare, Digital Marketing",
-                achievements: "2,500+ professionals mentored | 48% efficiency improvements"
+                achievements: "Employees from 30+ companies trained | 48% efficiency improvements"
             }
         },
         skills: {
@@ -318,7 +318,7 @@ window.content = {
                 focus: "KI-Engineering & Machine Learning Operations",
                 specialization: "Produktions-KI-Systeme & Business Intelligence",
                 industries: "FinTech, E-Commerce, Gesundheitswesen, Digital Marketing",
-                achievements: "2.500+ Fachkräfte betreut | 48% Effizienzsteigerungen"
+                achievements: "Mitarbeitende aus 30+ Unternehmen geschult | 48% Effizienzsteigerungen"
             }
         },
         skills: {
