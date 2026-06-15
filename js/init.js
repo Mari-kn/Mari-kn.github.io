@@ -152,14 +152,20 @@ window.content = {
             title: "Education",
             degrees: [
                 {
-                    degree: "Master of Science in Data Science", 
+                    degree: "Master of Science in Data Science",
                     school: "University of Europe for Applied Sciences",
                     location: "Potsdam, Germany",
-                    year: "August 2024"
+                    year: "2024"
+                },
+                {
+                    degree: "Master of Science in Software Engineering",
+                    school: "Science and Research University",
+                    location: "Tehran, Iran",
+                    year: "2013"
                 },
                 {
                     degree: "Bachelor of Science in Computer Science",
-                    school: "Bahounar University", 
+                    school: "Bahounar University",
                     location: "Kerman, Iran",
                     year: "May 2010"
                 }
@@ -410,8 +416,14 @@ window.content = {
                 {
                     degree: "Master of Science in Data Science",
                     school: "University of Europe for Applied Sciences",
-                    location: "Potsdam, Deutschland", 
-                    year: "August 2024"
+                    location: "Potsdam, Deutschland",
+                    year: "2024"
+                },
+                {
+                    degree: "Master of Science in Software Engineering",
+                    school: "Science and Research University",
+                    location: "Teheran, Iran",
+                    year: "2013"
                 },
                 {
                     degree: "Bachelor of Science in Computer Science",
