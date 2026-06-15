@@ -45,8 +45,8 @@ window.content = {
         hero: {
             name: "Marzieh Maria Kianiani",
             title: `AI Engineer | Data Scientist | ${experienceYears}+ Years Excellence in Data and 3+ in AI`,
-            subtitle: "Transforming Business Intelligence through Advanced AI Solutions",
-            summary: `Accomplished AI Engineer with Master's degrees in Software Engineering and Data Science, bringing ${experienceYears}+ years of proven expertise in transforming complex data into strategic business value. Successfully mentored 2,500+ analysts while delivering innovative solutions across multiple industries. Currently pioneering AI-driven solutions in Germany's thriving tech ecosystem, combining deep technical expertise with exceptional business acumen to drive measurable results.`,
+            subtitle: "Business Impact through AI & Machine Learning",
+            summary: `AI Engineer and Data Scientist with ${experienceYears}+ years in data and 3+ years building production-ready LLM, RAG, and NLP systems. I design and deploy end-to-end AI solutions with Python, LangChain, and cloud platforms (GCP/AWS/Azure), turning unstructured data into measurable business impact. With Master's degrees in Software Engineering and Data Science, I combine deep technical expertise with strong business understanding.`,
             location: "Potsdam, Germany"
         },
         about: {
@@ -308,7 +308,7 @@ window.content = {
             name: "Marzieh Maria Kianiani",
             title: `KI-Ingenieurin | Data Scientist | ${experienceYears}+ Jahre Erfahrung im Datenbereich und 3+ in KI`,
             subtitle: "Geschäftsimpact durch KI & Machine Learning",
-            summary: `Mit einem Masterabschluss in Software Engineering und über ${experienceYears} Jahren Erfahrung im Datenbereich habe ich Unternehmen dabei geholfen, Wert durch den Einsatz von KI und Daten zu schaffen. 2023 nach Deutschland gezogen, um meine Karriere voranzutreiben, zweiten Masterabschluss in Data Science abgeschlossen. KI-Kurs finalisiert, Entscheidung für Übergang zu KI-Engineering getroffen, um technische Expertise mit Geschäftserfahrung zu kombinieren. Arbeit an KI-Projekt in der Industrie.`,
+            summary: `KI-Ingenieurin und Data Scientist mit über ${experienceYears} Jahren Erfahrung im Datenbereich und mehr als 3 Jahren im Aufbau produktionsreifer LLM-, RAG- und NLP-Systeme. Ich plane und realisiere End-to-End-KI-Lösungen mit Python, LangChain und Cloud-Plattformen (GCP/AWS/Azure) und verwandle unstrukturierte Daten in messbaren Geschäftsimpact. Mit Masterabschlüssen in Software Engineering und Data Science verbinde ich tiefe technische Expertise mit ausgeprägtem Geschäftsverständnis.`,
             location: "Potsdam, Deutschland"
         },
         about: {
