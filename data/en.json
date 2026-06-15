@@ -34,39 +34,39 @@
 
   "hero": {
     "name": "Maria Kiani",
-    "title": "AI Engineer | Data Scientist | 14+ Years Experience in Data Area",
+    "title": "AI Engineer | Data Scientist | LLM, RAG & NLP Systems",
     "subtitle": "Business Impact through AI & Machine Learning",
-    "summary": "With Master's degree in Software Engineering and over 14 years of experience in Data area, I have helped companies to make value with using AI and Data. Moved to Germany in 2023 to advance my career, completed a second Master's degree focused on Data Science. Finalized an AI course, decided to transition into AI Engineering and combine my technical expertise with my business experience. Worked on AI project in industry.",
+    "summary": "AI Engineer and Data Scientist with 3+ years building production-ready LLM and NLP systems that turn unstructured data into actionable business insights. I design and deploy end-to-end AI solutions — RAG, document intelligence, and AI-driven automation — using Python, LangChain, and cloud platforms (GCP/AWS/Azure), covering the full ML lifecycle. Previously a Senior Data Analyst, I bring strong analytical thinking and business understanding into AI system design.",
     "location": "Potsdam, Germany"
   },
 
   "about": {
     "title": "About Me",
-    "content": "I am AI Engineer, combining 14+ years of data analysis experience with advanced machine learning expertise and AI Engineering. With a Master's degree in Software Engineering and a second Master's in Data Science in Germany, I specialize in creating business impact through data-driven solutions.\n\nThroughout my career, I have helped companies to use AI as a empowering tools to reduce costs, increasing efficiency and accelarating business. I successfully trained over 2,500 junior analysts and have worked on AI projects in industry settings. After moving to Germany in 2023 to advance my career, I completed an AI specialization course and am now focused on combining technical AI expertise with business acumen."
+    "content": "AI Engineer and Data Scientist with 3+ years of experience building production-ready LLM and NLP systems that transform unstructured data into actionable business insights. I design and deploy end-to-end AI solutions — including Retrieval-Augmented Generation (RAG), document intelligence, and AI-driven automation — and develop scalable applications using Python, LangChain, and cloud platforms (GCP/AWS/Azure), covering the full ML lifecycle from data processing and model development to deployment and optimization.\n\nBefore moving into AI Engineering, I spent over a decade as a Senior Data Analyst and Data Scientist, bringing strong analytical thinking and business understanding into AI system design. I have trained employees from more than 30 companies in data analysis. After relocating to Germany in 2023 to advance my career, I completed a second Master's degree in Data Science and an intensive AI upskilling program, and now focus on combining technical AI expertise with real business impact."
   },
 
   "skills": {
     "title": "Technical Skills",
     "_skill_instructions": "💡 Add new categories by adding to both 'categories' and 'items'. The website will automatically create new skill sections.",
     "categories": {
-      "programming": "Programming Languages",
-      "ai": "AI Technologies",
-      "ml": "Machine Learning",
-      "etl": "ETL Tools",
-      "visualization": "Data Visualization", 
-      "analytics": "Statistical Analysis",
+      "genai": "GenAI & LLM",
+      "software": "Software Engineering",
+      "ml": "Machine Learning & Predictive Modeling",
+      "databases": "Databases",
       "cloud": "Cloud Platforms",
-      "tools": "Development Tools"
+      "statistics": "Statistics & Experimentation",
+      "versioncontrol": "Version Control",
+      "visualization": "Data Visualization"
     },
     "items": {
-      "programming": ["Python", "C#", "SQL"],
-      "ai": ["LLM", "RAG","LangChain"],
-      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
-      "analytics": ["Regression Analysis", "Hypothesis Testing", "Time Series Analysis"],
-      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
-      "etl": ["Apache Airflow", "dbt", "SSIS", "Power Query"],
-      "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
-      "tools": ["Git", "GitHub", "Excel"]
+      "genai": ["LLMs", "RAG", "Prompt Engineering", "Document Intelligence", "NLP Pipelines", "Agentic Workflows (LangChain, n8n)", "Hugging Face", "OpenAI/Anthropic APIs", "Docker"],
+      "software": ["Python", "SQL", "C#", "FastAPI", "Clean Architecture"],
+      "ml": ["Scikit-learn", "TensorFlow", "PyTorch", "Deep Learning", "Time-Series Forecasting", "Feature Engineering", "PySpark"],
+      "databases": ["pgvector", "Pinecone", "MS SQL Server", "BigQuery", "Snowflake"],
+      "cloud": ["AWS", "GCP", "Azure"],
+      "statistics": ["Regression Analysis", "Hypothesis Testing", "A/B Testing"],
+      "versioncontrol": ["GitHub", "CI/CD"],
+      "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"]
     }
   },
 
@@ -75,30 +75,30 @@
     "_job_instructions": "💼 Add new jobs to the 'jobs' array. Each job needs: title, company, location, period, type, description, link",
     "jobs": [
       {
-        "title": "AI Engineer and Data Scientist",
-        "company": "",
+        "title": "AI Engineer / Data Scientist",
+        "company": "Freelance",
         "location": "Germany (Remote)",
         "period": "Oct 2024 – Present",
         "type": "Freelance",
-        "description": "Working on AI-Driven Digital Marketing Solution. Implemented an intelligent solution to assist registration of new users using LLMs, Python, OCR. Developed an automated system to generate SEO-Optimized content using Python, Fine-tuning OpenAI, OLlama, LangChain, HTML and Javascript. Developed a web application for extracting HR-related KPIs from PDFs and Images in 4 categories selected by user and store in Azure SQL to have agile insights on HR KPIs global standards using Azure AI services, Python, HTML, CSS, API programming and OpenAI. Developed a Customer Churn Prediction model for B2C company using Python. Developed chatbot with RAG using AWS AI Service, Python, Streamlit.",
+        "description": "Building production-ready LLM, RAG, and NLP systems end-to-end for clients across industries.\n\n• AI Content Automation Platform (Luninora GmbH): Designed and deployed an LLM and RAG platform that generates on-brand marketing content from a curated knowledge base, with embeddings-based retrieval for context grounding. Reduced content production time by 70% (from ~4 hrs to ~1 hr per piece), scaled output to 200+ assets/month, and cut reliance on external copywriting, saving an estimated €2–3K/month. Stack: Python, LangChain, OpenAI GPT-4o, pgvector, FastAPI, GCP Cloud Run.\n\n• LLM Document Intelligence for KPI Extraction (Agile Insight): Built an end-to-end system that extracts structured HR KPIs from unstructured PDFs. Processed ~500 documents/month, cut manual data entry by 80% (from ~20 to ~4 hrs/week), and achieved ~95% field-level extraction accuracy via prompt engineering and Pydantic schema validation with human-in-the-loop review. Stack: Python, LangChain, Azure Document Intelligence, GPT-4o, Streamlit.\n\n• RAG-Based Enterprise Document Chatbot (Agile Insight): Developed a context-aware chatbot that lets employees query internal documents in natural language via semantic search over a vector store. Indexed 1000+ documents, reduced average lookup time from ~15 min to under 1 min, and delivered ~90% answer relevance using chunking optimization, hybrid retrieval, and source-citation grounding to reduce hallucinations. Stack: Agentic RAG, Python, LangChain, Firestore vector search, GPT-4o.\n\n• Customer Churn Prediction Model (Wilhelm.tel): Built a supervised ML model for predictive churn risk scoring to support proactive retention. Achieved 92% recall, identifying the top ~20% highest-risk customers, and reduced churn by ~12% among at-risk customers. Stack: Python, scikit-learn, XGBoost, pandas, BigQuery.",
         "link": null
       },
       {
-        "title": "Professional Development",
+        "title": "AI / Cloud / ML — Intensive Upskilling Program",
         "company": "",
         "location": "Potsdam, Germany",
         "period": "Mar 2024 – Sep 2024",
-        "type": "Career Break",
-        "description": "Finalized XRP and Bitcoin prediction project using time series deep learning models based on market analysis and sentiment analysis (Ordered by UK company). Completed a project-based course focused on AI developer topics, gaining hands-on experience to deploy AI solutions. Strengthened expertise in Azure AI, AWS, Deep learning through self-learning. Successfully finalized master's thesis in Fraud detection subject. Provided customer support for clients at previous company. Enhanced German language skills.",
+        "type": "Professional Development",
+        "description": "Built deep-learning time-series models to forecast XRP and Bitcoin prices, combining market data with sentiment analysis of news and social signals, achieving 94% precision. Completed a Master's thesis on fraud detection in Ethereum transactions, engineering features from on-chain data and training XGBoost to flag fraudulent transactions at ~90%+ precision. Delivered an end-to-end AI capstone: trained a model and deployed it to production on GCP Cloud Run with Docker and FastAPI, covering the full lifecycle from data preparation to serving.",
         "link": null
       },
       {
-        "title": "Data Analysis Consultant",
+        "title": "Data Scientist / Analyst Consultant",
         "company": "Darsoon",
         "location": "Ontario, Canada (Remote)",
         "period": "01/2023 – 03/2024",
         "type": "Part-time",
-        "description": "Analyzed gold price news using Guardian API and Python, identified outliers in time series and researched their causes. Transformed Google Analytics data with dbt, visualized BigQuery data in Tableau, demonstrating that loyal customers account for 60% of revenue. Mentored junior analysts in SQL, Python, Power BI, and Excel. Quickly adapted to new processes and accelerated analytics projects.",
+        "description": "Worked with the product team on an e-commerce analytics project in the pharmaceutical industry, identifying that repeat customers accounted for 60% of total revenue and revealing a significant opportunity for loyalty-focused marketing strategies. Transformed Google Analytics and OLTP data with dbt and visualized BigQuery data. Reduced employment costs by automating news analysis with the Guardian Media Group API and Python to detect anomalies in time series and investigate their causes. Mentored junior data analysts in SQL, Python, and Power BI.",
         "link": "https://darsoon.com/en"
       },
       {
@@ -107,26 +107,35 @@
         "location": "Tehran, Iran",
         "period": "03/2019 – 01/2023",
         "type": "Full-time Hybrid",
-        "description": "Increased rebooking rate of a home service provider by 48% through data cleaning and A/B testing. Analyzed project processes and reduced costs by 32%, built star schema data warehouse and created Power BI dashboards. Defined metrics and dashboards for over 10 companies across industries including industrial adhesives, oil trading, crypto portfolios, e-commerce, hospitality, HR, and digital marketing. Responsible for ad-hoc reports, trained approximately 30 company employees, received performance bonuses for three consecutive years, and won major clients through innovative ideas.",
+        "description": "Increased the rebooking rate by 48% for a home-service provider through data-driven insights and strategic integrations, including A/B testing in Power BI and Python and a win-back strategy for canceled appointments. Slashed project process costs by 32% for a healthcare project-management company by integrating data from multiple sources, implementing a star-schema data warehouse, and building Power BI dashboards that influenced key decisions. Derived KPIs together with stakeholders, delivered ad-hoc reporting, and trained employees from over 30 companies in data analysis.",
         "link": "https://persiafava.com/"
       },
       {
-        "title": "Lecturer",
+        "title": "Data Analysis Lecturer",
         "company": "Azad University",
         "location": "Tehran, Iran",
         "period": "01/2014 – 01/2019",
         "type": "Full-time",
-        "description": "Taught SQL Server, Excel, and Python programming to university students.",
+        "description": "Taught SQL Server, Excel, and Python as a data analysis lecturer.",
         "link": "https://qods.iau.ir/fa"
       },
       {
         "title": "Data Analyst",
         "company": "Mellat Bank",
-        "location": "Tehran, Iran", 
+        "location": "Tehran, Iran",
         "period": "12/2011 – 03/2014",
         "type": "Full-time",
-        "description": "Optimized IT processes for Iran's largest bank, created HR, product, and service dashboards using Power Query and Excel. Defined KPIs in coordination with stakeholders and received manager recognition for outstanding project performance.",
+        "description": "Designed dashboards providing an overview of human-resources and procurement performance and contributed to stakeholder discussions to derive KPIs. Analyzed IT processes and defined KPIs based on the COBIT 5 framework to measure alignment with standards, earning an outstanding-performance award.",
         "link": "https://bankmellat.ir/default.aspx"
+      },
+      {
+        "title": "Full-stack Developer",
+        "company": "Asan Software",
+        "location": "Tehran, Iran",
+        "period": "04/2010 – 11/2011",
+        "type": "Full-time",
+        "description": "Developed a payroll system as a C#, WPF, and LINQ programmer and designed the SQL Server database.",
+        "link": null
       }
     ]
   },
@@ -144,9 +153,9 @@
       },
       {
         "degree": "Master of Science in Software Engineering",
-        "school": "Azad University",
+        "school": "Science and Research University",
         "location": "Tehran, Iran",
-        "year": "2014",
+        "year": "2013",
         "focus": "Software Architecture, Database Systems, Project Management"
       },
       {

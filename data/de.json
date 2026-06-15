@@ -34,39 +34,39 @@
 
   "hero": {
     "name": "Maria Kiani",
-    "title": "KI-Ingenieurin | Data Scientist | 14+ Jahre Erfahrung im Datenbereich",
+    "title": "KI-Ingenieurin | Data Scientist | LLM-, RAG- & NLP-Systeme",
     "subtitle": "Geschäftsimpact durch KI & Machine Learning",
-    "summary": "Mit einem Masterabschluss in Software Engineering und über 14 Jahren Erfahrung im Datenbereich habe ich Unternehmen dabei geholfen, Wert durch den Einsatz von KI und Daten zu schaffen. 2023 nach Deutschland gezogen, um meine Karriere voranzutreiben, zweiten Masterabschluss in Data Science abgeschlossen. KI-Kurs finalisiert, Entscheidung für Übergang zu KI-Engineering getroffen, um technische Expertise mit Geschäftserfahrung zu kombinieren. Arbeit an KI-Projekt in der Industrie.",
+    "summary": "KI-Ingenieurin und Data Scientist mit mehr als 3 Jahren Erfahrung im Aufbau produktionsreifer LLM- und NLP-Systeme, die aus unstrukturierten Daten nützliche Erkenntnisse für Unternehmen machen. Ich plane und baue AI-Lösungen von Anfang bis Ende — RAG, Document Intelligence und KI-Automatisierung — mit Python, LangChain und Cloud-Plattformen (GCP/AWS/Azure) über den gesamten ML-Lebenszyklus. Als frühere Senior Data Analystin bringe ich starkes analytisches Denken und Geschäftsverständnis in das Design von KI-Systemen ein.",
     "location": "Potsdam, Deutschland"
   },
 
   "about": {
     "title": "Über mich",
-    "content": "Ich bin KI-Ingenieurin und kombiniere 14+ Jahre Datenanalyse-Erfahrung mit fortgeschrittener Machine Learning-Expertise und KI-Engineering. Mit einem Masterabschluss in Software Engineering und einem zweiten Master in Data Science in Deutschland spezialisiere ich mich darauf, Geschäftsimpact durch datengetriebene Lösungen zu schaffen.\n\nIm Laufe meiner Karriere habe ich Unternehmen dabei geholfen, KI als ermächtigende Werkzeuge zu nutzen, um Kosten zu reduzieren, die Effizienz zu steigern und das Geschäft zu beschleunigen. Ich habe erfolgreich über 2.500 Junior-Analysten geschult und an KI-Projekten in industriellen Umgebungen gearbeitet. Nach meinem Umzug nach Deutschland 2023 zur Karriereförderung habe ich einen KI-Spezialisierungskurs abgeschlossen und fokussiere mich nun darauf, technische KI-Expertise mit Geschäftsverständnis zu verbinden."
+    "content": "KI-Ingenieurin und Data Scientist mit mehr als 3 Jahren Erfahrung im Aufbau produktionsreifer LLM- und NLP-Systeme, die unstrukturierte Daten in nützliche Geschäftserkenntnisse verwandeln. Ich plane und baue End-to-End-AI-Lösungen — darunter Retrieval-Augmented Generation (RAG), Document Intelligence und KI-Automatisierung — und entwickle skalierbare Anwendungen mit Python, LangChain und Cloud-Plattformen (GCP/AWS/Azure) über den gesamten ML-Lebenszyklus von der Datenverarbeitung über die Modellentwicklung bis zum Deployment und zur Optimierung.\n\nVor meinem Wechsel ins KI-Engineering habe ich über ein Jahrzehnt als Senior Data Analystin und Data Scientist gearbeitet und bringe starkes analytisches Denken und Geschäftsverständnis in das Design von KI-Systemen ein. Ich habe Mitarbeitende aus mehr als 30 Unternehmen in Datenanalyse geschult. Nach meinem Umzug nach Deutschland 2023 habe ich einen zweiten Masterabschluss in Data Science und ein intensives KI-Weiterbildungsprogramm abgeschlossen und fokussiere mich nun darauf, technische KI-Expertise mit echtem Geschäftsimpact zu verbinden."
   },
 
   "skills": {
     "title": "Technische Fähigkeiten",
     "_skill_instructions": "💡 Fügen Sie neue Kategorien hinzu, indem Sie sowohl zu 'categories' als auch zu 'items' hinzufügen. Die Website erstellt automatisch neue Skill-Bereiche.",
     "categories": {
-      "programming": "Programmiersprachen",
-      "ai": "KI-Technologien",
-      "ml": "Machine Learning",
-      "etl": "ETL-Werkzeuge",
-      "visualization": "Datenvisualisierung", 
-      "analytics": "Statistische Analysen",
+      "genai": "GenAI & LLM",
+      "software": "Softwareentwicklung",
+      "ml": "Machine Learning & Predictive Modeling",
+      "databases": "Datenbanken",
       "cloud": "Cloud-Plattformen",
-      "tools": "Entwicklungstools"
+      "statistics": "Statistik & Experimente",
+      "versioncontrol": "Versionskontrolle",
+      "visualization": "Datenvisualisierung"
     },
     "items": {
-      "programming": ["Python", "C#", "SQL"],
-      "ai": ["LLM", "RAG","LangChain"],
-      "ml": ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
-      "analytics": ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
-      "cloud": ["Google Cloud Platform", "BigQuery", "AWS"],
-      "etl": ["Apache Airflow", "dbt", "SSIS", "Power Query"],
-      "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
-      "tools": ["Git", "GitHub", "Excel"]
+      "genai": ["LLMs", "RAG", "Prompt Engineering", "Document Intelligence", "NLP-Pipelines", "Agentic Workflows (LangChain, n8n)", "Hugging Face", "OpenAI/Anthropic APIs", "Docker"],
+      "software": ["Python", "SQL", "C#", "FastAPI", "Clean Architecture"],
+      "ml": ["Scikit-learn", "TensorFlow", "PyTorch", "Deep Learning", "Zeitreihenprognose", "Feature Engineering", "PySpark"],
+      "databases": ["pgvector", "Pinecone", "MS SQL Server", "BigQuery", "Snowflake"],
+      "cloud": ["AWS", "GCP", "Azure"],
+      "statistics": ["Regressionsanalyse", "Hypothesentests", "A/B-Tests"],
+      "versioncontrol": ["GitHub", "CI/CD"],
+      "visualization": ["Power BI", "Tableau", "Matplotlib", "Seaborn"]
     }
   },
 
@@ -75,30 +75,30 @@
     "_job_instructions": "💼 Fügen Sie neue Jobs zum 'jobs' Array hinzu. Jeder Job benötigt: title, company, location, period, type, description, link",
     "jobs": [
       {
-        "title": "KI-Ingenieurin und Data Scientist",
-        "company": "",
+        "title": "KI-Ingenieurin / Data Scientist",
+        "company": "Freiberuflich",
         "location": "Deutschland (Remote)",
         "period": "Okt 2024 – Heute",
         "type": "Freiberuflich",
-        "description": "Arbeite an KI-gesteuerter Digital-Marketing-Lösung. Implementierte eine intelligente Lösung zur Unterstützung der Registrierung neuer Benutzer mit LLMs, Python, OCR. Entwickelte ein automatisiertes System zur Generierung von SEO-optimierten Inhalten mit Python, Fine-tuning OpenAI, OLlama, LangChain, HTML und Javascript. Entwickelte eine Webanwendung zur Extraktion von HR-bezogenen KPIs aus PDFs und Bildern in 4 vom Benutzer ausgewählten Kategorien und Speicherung in Azure SQL für agile Einblicke in globale HR-KPI-Standards unter Verwendung von Azure AI Services, Python, HTML, CSS, API-Programmierung und OpenAI. Entwickelte ein Customer-Churn-Prediction-Modell für B2C-Unternehmen mit Python. Entwickelte Chatbot mit RAG unter Verwendung von AWS AI Service, Python, Streamlit.",
+        "description": "Entwicklung produktionsreifer LLM-, RAG- und NLP-Systeme von Anfang bis Ende für Kunden aus verschiedenen Branchen.\n\n• AI Content Automation Platform (Luninora GmbH): Konzeption und Bereitstellung einer LLM- und RAG-Plattform, die markenkonforme Marketinginhalte aus einer kuratierten Wissensdatenbank generiert – mit embedding-basiertem Retrieval zur kontextuellen Verankerung. Produktionszeit für Inhalte um 70 % reduziert (von ~4 Std. auf ~1 Std. pro Beitrag), Skalierung auf 200+ Assets/Monat ermöglicht und durch geringere Abhängigkeit von externem Copywriting geschätzte 2–3K €/Monat eingespart. Stack: Python, LangChain, OpenAI GPT-4o, pgvector, FastAPI, GCP Cloud Run.\n\n• LLM Document Intelligence zur KPI-Extraktion (Agile Insight): Durchgängiges System, das strukturierte HR-KPIs aus unstrukturierten PDFs extrahiert. ~500 Dokumente/Monat verarbeitet, manuelle Dateneingabe um 80 % reduziert (von ~20 auf ~4 Std./Woche) und ~95 % Genauigkeit auf Feldebene erreicht durch Prompt Engineering und Pydantic-Schemavalidierung mit Human-in-the-Loop-Prüfung. Stack: Python, LangChain, Azure Document Intelligence, GPT-4o, Streamlit.\n\n• RAG-basierter Chatbot für Unternehmensdokumente (Agile Insight): Kontextbewusster Chatbot, der Mitarbeitenden ermöglicht, interne Dokumente in natürlicher Sprache über semantische Suche in einem Vector Store abzufragen. 1000+ Dokumente indexiert, durchschnittliche Suchzeit von ~15 Min. auf unter 1 Min. reduziert und ~90 % Antwortrelevanz erreicht durch optimiertes Chunking, hybrides Retrieval und Source-Citation-Grounding zur Reduzierung von Halluzinationen. Stack: Agentic RAG, Python, LangChain, Firestore Vector Search, GPT-4o.\n\n• Customer-Churn-Vorhersagemodell (Wilhelm.tel): Überwachtes ML-Modell zur prädiktiven Bewertung des Abwanderungsrisikos für proaktive Kundenbindung. 92 % Recall erreicht, die 20 % Kunden mit dem höchsten Risiko identifiziert und die Abwanderung bei gefährdeten Kunden um rund 12 % reduziert. Stack: Python, scikit-learn, XGBoost, pandas, BigQuery.",
         "link": null
       },
       {
-        "title": "Berufliche Weiterbildung",
+        "title": "KI / Cloud / ML — Intensives Weiterbildungsprogramm",
         "company": "",
         "location": "Potsdam, Deutschland",
         "period": "März 2024 – Sept 2024",
-        "type": "Berufliche Auszeit",
-        "description": "Abschluss des XRP- und Bitcoin-Vorhersageprojekts mit Deep-Learning-Modellen für Zeitreihen basierend auf Marktanalyse und Sentiment-Analyse (Auftrag einer britischen Firma). Abschluss eines projektbasierten Kurses zu KI-Entwicklerthemen mit praktischen Erfahrungen beim Deployment von KI-Lösungen. Vertiefung der Expertise in Azure AI, AWS, Deep Learning durch Selbststudium. Erfolgreicher Abschluss der Masterarbeit zum Thema Betrugserkennung. Kundenbetreuung für Kunden des vorherigen Unternehmens. Verbesserung der deutschen Sprachkenntnisse.",
+        "type": "Berufliche Weiterbildung",
+        "description": "Deep-Learning-Zeitreihenmodelle zur Vorhersage der XRP- und Bitcoin-Kurse entwickelt, die Marktdaten mit der Sentiment-Analyse von Nachrichten- und Social-Media-Signalen kombinieren – 94 % Precision erreicht. Masterarbeit zur Betrugserkennung bei Ethereum-Transaktionen abgeschlossen: Features aus On-Chain-Daten entwickelt und XGBoost trainiert, um betrügerische Transaktionen mit ~90 %+ Precision zu erkennen. Durchgängiges KI-Capstone-Projekt umgesetzt: ein Modell trainiert und produktiv auf GCP Cloud Run mit Docker und FastAPI bereitgestellt – über den gesamten Lebenszyklus von der Datenaufbereitung bis zum Serving.",
         "link": null
       },
       {
-        "title": "Data-Analysis-Consultant",
+        "title": "Data Scientist / Data Analyst Consultant",
         "company": "Darsoon",
         "location": "Ontario, Kanada (Remote)",
-        "period": "01/2023 – 03/2024", 
+        "period": "01/2023 – 03/2024",
         "type": "Teilzeit",
-        "description": "Analysierte Goldpreis-Nachrichten mit der Guardian-API und Python, erkannte Ausreißer in Zeitreihen und erforschte deren Ursachen. Transformierte Google-Analytics-Daten mit dbt, visualisierte BigQuery-Daten in Tableau und zeigte, dass Stammkunden 60 Prozent des Umsatzes ausmachen. Betreute Junior-Analysten in SQL, Python, Power BI und Excel. Eignete sich Prozesse rasch an und beschleunigte Analytikprojekte.",
+        "description": "Zusammenarbeit mit dem Produktteam bei einem E-Commerce-Analyseprojekt in der Pharmaindustrie. Dabei wurde festgestellt, dass Stammkunden 60 % des Gesamtumsatzes ausmachen – ein erhebliches Potenzial für loyalitätsorientierte Marketingstrategien. Transformation von Google-Analytics- und OLTP-Daten mit dbt sowie Visualisierung der BigQuery-Daten. Reduzierung der Personalkosten durch eine automatisierte Nachrichtenanalyse mit der Guardian Media Group API und Python zur Erkennung von Anomalien in Zeitreihen und Untersuchung ihrer Ursachen. Mentoring von Junior Data Analysts in SQL, Python und Power BI.",
         "link": "https://darsoon.com/en"
       },
       {
@@ -107,26 +107,35 @@
         "location": "Teheran, Iran",
         "period": "03/2019 – 01/2023",
         "type": "Hybrid-Vollzeit",
-        "description": "Steigerte mithilfe von Datenbereinigung und A/B-Tests die Wiederbuchungsrate eines Home-Service-Providers um 48 Prozent. Analysierte Projektprozesse und senkte deren Kosten um 32 Prozent, errichtete ein Sternschema-Data-Warehouse und erstellte Power-BI-Dashboards. Definierte Kennzahlen und Dashboards für mehr als zehn Unternehmen aus Branchen wie Industrie-Klebstoffe, Ölhandel, Krypto-Portfolios, E-Commerce, Hotellerie, HR und Digital-Marketing. Verantwortete Ad-hoc-Reports, schulte rund 30 Firmenmitarbeiter, erhielt drei Jahre in Folge Leistungsprämien und gewann Großkunden durch innovative Ideen.",
+        "description": "Erhöhung der Wiederbuchungsrate um 48 % bei einem Home-Service-Anbieter durch datenbasierte Analysen und strategische Systemintegrationen, einschließlich A/B-Tests mit Power BI und Python sowie einer Rückgewinnungsstrategie für stornierte Termine. Reduzierung der Projektprozesskosten um 32 % für ein Projektmanagementunternehmen im Gesundheitssektor durch Integration von Daten aus verschiedenen Quellen, Implementierung eines Sternschema-Data-Warehouses und Erstellung von Power-BI-Dashboards, die strategische Entscheidungen beeinflussten. Definition relevanter KPIs in enger Zusammenarbeit mit Stakeholdern, Erstellung von Ad-hoc-Reports und Schulung von Mitarbeitenden aus über 30 Unternehmen in Datenanalyse.",
         "link": "https://persiafava.com/"
       },
       {
-        "title": "Dozentin",
-        "company": "Azad University", 
+        "title": "Lehrbeauftragte für Datenanalyse",
+        "company": "Azad University",
         "location": "Teheran, Iran",
         "period": "01/2014 – 01/2019",
         "type": "Vollzeit",
-        "description": "Vermittelte SQL Server, Excel und Python an Universitätsstudenten.",
+        "description": "Vermittelte SQL Server, Excel und Python als Lehrbeauftragte für Datenanalyse.",
         "link": "https://qods.iau.ir/fa"
       },
       {
         "title": "Data Analystin",
         "company": "Mellat Bank",
         "location": "Teheran, Iran",
-        "period": "12/2011 – 03/2014", 
+        "period": "12/2011 – 03/2014",
         "type": "Vollzeit",
-        "description": "Optimierte IT-Prozesse der größten iranischen Bank, erstellte HR-, Produkt- und Service-Dashboards mit Power Query und Excel. Definierte KPIs in Abstimmung mit Stakeholdern und erhielt eine Manager-Auszeichnung für herausragende Projektleistungen.",
+        "description": "Konzeption und Entwicklung von Dashboards zur Übersicht der Performance im Personal- und Einkaufsbereich sowie Mitwirkung an Abstimmungen mit Stakeholdern zur Ableitung relevanter KPIs. Analyse von IT-Prozessen und Definition von KPIs auf Basis des COBIT-5-Frameworks zur Messung der Standardkonformität – ausgezeichnet für herausragende Projektleistungen.",
         "link": "https://bankmellat.ir/default.aspx"
+      },
+      {
+        "title": "Full-stack Developer",
+        "company": "Asan Software",
+        "location": "Teheran, Iran",
+        "period": "04/2010 – 11/2011",
+        "type": "Vollzeit",
+        "description": "Entwicklung eines Gehaltsabrechnungssystems als C#-, WPF- und LINQ-Programmiererin sowie Implementierung der SQL-Server-Datenbank.",
+        "link": null
       }
     ]
   },
@@ -144,9 +153,9 @@
       },
       {
         "degree": "Master of Science in Software Engineering",
-        "school": "Azad University",
+        "school": "Science and Research University",
         "location": "Teheran, Iran",
-        "year": "2014",
+        "year": "2013",
         "focus": "Software-Architektur, Datenbanksysteme, Projektmanagement"
       },
       {
