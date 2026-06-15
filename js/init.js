@@ -62,24 +62,22 @@ window.content = {
         skills: {
             title: "Technical Skills",
             categories: {
-                programming: "Programming Languages",
-                ai: "AI Technologies",
-                ml: "Machine Learning",
-                etl: "ETL Tools",
-                visualization: "Data Visualization",
-                analytics: "Statistical Analysis",
+                genai: "GenAI & LLM",
+                software: "Software Engineering",
+                ml: "Machine Learning & Predictive Modeling",
+                databases: "Databases",
                 cloud: "Cloud Platforms",
-                tools: "Development Tools"
+                statistics: "Statistics & Experimentation",
+                versioncontrol: "Version Control"
             },
             items: {
-                programming: ["Python", "SQL", "C#"],
-                ai: ["OpenAI", "Retrieval-Augmented Generation", "Langchain"],
-                ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
-                etl: ["Apache Airflow", "dbt", "SSIS", "Power Query"],
-                visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
-                analytics: ["Regression Analysis", "Hypothesis Testing", "Time Series Analysis"],
-                cloud: ["Azure","Google Cloud Platform", "BigQuery", "AWS"],
-                tools: ["Git", "GitHub", "Excel"]
+                genai: ["LLMs", "RAG", "Prompt Engineering", "Document Intelligence", "NLP Pipelines", "Agentic Workflows (LangChain, n8n)", "Hugging Face", "OpenAI/Anthropic APIs", "Docker"],
+                software: ["Python", "SQL", "C#", "FastAPI", "Clean Architecture"],
+                ml: ["Supervised & Unsupervised Learning (Scikit-learn)", "Deep Learning (TensorFlow, PyTorch)", "Time-Series Forecasting", "Feature Engineering & Model Evaluation", "PySpark"],
+                databases: ["pgvector", "Pinecone", "MS SQL Server", "BigQuery", "Snowflake"],
+                cloud: ["AWS", "GCP", "Azure"],
+                statistics: ["Regression Analysis", "Hypothesis Testing", "A/B Testing"],
+                versioncontrol: ["GitHub", "CI/CD"]
             }
         },
         experience: {
@@ -320,24 +318,22 @@ window.content = {
         skills: {
             title: "Technische Fähigkeiten",
             categories: {
-                programming: "Programmiersprachen",
-                ai: "KI-Technologien",
-                ml: "Machine Learning",
-                etl: "ETL-Werkzeuge",
-                visualization: "Datenvisualisierung",
-                analytics: "Statistische Analysen",
+                genai: "GenAI & LLM",
+                software: "Softwareentwicklung",
+                ml: "Machine Learning & Predictive Modeling",
+                databases: "Datenbanken",
                 cloud: "Cloud-Plattformen",
-                tools: "Entwicklungstools"
+                statistics: "Statistik & Experimente",
+                versioncontrol: "Versionskontrolle"
             },
             items: {
-                programming: ["Python", "SQL", "C#"],
-                ai: ["OpenAI", "Retrieval-Augmented Generation", "Langchain"],
-                ml: ["Scikit-learn", "PySpark", "TensorFlow", "PyTorch", "Deep Learning"],
-                etl: ["Apache Airflow", "dbt", "SSIS", "Power Query"],
-                visualization: ["Power BI", "Tableau", "Matplotlib", "Seaborn"],
-                analytics: ["Regressionsanalyse", "Hypothesentests", "Zeitreihenanalyse"],
-                cloud: ["Azure","Google Cloud Platform", "BigQuery", "AWS"],
-                tools: ["Git", "GitHub", "Excel"]
+                genai: ["LLMs", "RAG", "Prompt Engineering", "Document Intelligence", "NLP-Pipelines", "Agentic Workflows (LangChain, n8n)", "Hugging Face", "OpenAI/Anthropic APIs", "Docker"],
+                software: ["Python", "SQL", "C#", "FastAPI", "Clean Architecture"],
+                ml: ["Überwachtes & unüberwachtes Lernen (Scikit-learn)", "Deep Learning (TensorFlow, PyTorch)", "Zeitreihenprognose", "Feature Engineering & Modellbewertung", "PySpark"],
+                databases: ["pgvector", "Pinecone", "MS SQL Server", "BigQuery", "Snowflake"],
+                cloud: ["AWS", "GCP", "Azure"],
+                statistics: ["Regressionsanalyse", "Hypothesentests", "A/B-Tests"],
+                versioncontrol: ["GitHub", "CI/CD"]
             }
         },
         experience: {
