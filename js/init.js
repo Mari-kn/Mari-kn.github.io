@@ -43,8 +43,8 @@ window.content = {
         skipToMain: "Skip to main content",
         skipToNav: "Skip to navigation",
         hero: {
-            name: "Maria Kiani",
-            title: `AI Engineer | Data Scientist | ${experienceYears}+ Years Excellence`,
+            name: "Marzieh Maria Kianiani",
+            title: `AI Engineer | Data Scientist | ${experienceYears}+ Years Excellence in Data and 3+ in AI`,
             subtitle: "Transforming Business Intelligence through Advanced AI Solutions",
             summary: `Accomplished AI Engineer with Master's degrees in Software Engineering and Data Science, bringing ${experienceYears}+ years of proven expertise in transforming complex data into strategic business value. Successfully mentored 2,500+ analysts while delivering innovative solutions across multiple industries. Currently pioneering AI-driven solutions in Germany's thriving tech ecosystem, combining deep technical expertise with exceptional business acumen to drive measurable results.`,
             location: "Potsdam, Germany"
@@ -305,8 +305,8 @@ window.content = {
         skipToMain: "Zum Hauptinhalt springen",
         skipToNav: "Zur Navigation springen",
         hero: {
-            name: "Maria Kiani",
-            title: `KI-Ingenieurin | Data Scientist | ${experienceYears}+ Jahre Erfahrung im Datenbereich`,
+            name: "Marzieh Maria Kianiani",
+            title: `KI-Ingenieurin | Data Scientist | ${experienceYears}+ Jahre Erfahrung im Datenbereich und 3+ in KI`,
             subtitle: "Geschäftsimpact durch KI & Machine Learning",
             summary: `Mit einem Masterabschluss in Software Engineering und über ${experienceYears} Jahren Erfahrung im Datenbereich habe ich Unternehmen dabei geholfen, Wert durch den Einsatz von KI und Daten zu schaffen. 2023 nach Deutschland gezogen, um meine Karriere voranzutreiben, zweiten Masterabschluss in Data Science abgeschlossen. KI-Kurs finalisiert, Entscheidung für Übergang zu KI-Engineering getroffen, um technische Expertise mit Geschäftserfahrung zu kombinieren. Arbeit an KI-Projekt in der Industrie.`,
             location: "Potsdam, Deutschland"
